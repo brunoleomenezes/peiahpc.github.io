@@ -14,7 +14,7 @@ window.PEIA_I18N = {
     /* --- Metadados e navegação ------------------------------------------ */
     "meta.titulo.index": "PEIA-HPC — Formação em IA aplicada e computação científica",
     "meta.desc.index":
-      "O PEIA-HPC leva o supercomputador Santos Dumont para a sala de aula do ensino técnico. Curso de 240 horas-aula em Inteligência Artificial Aplicada, com prática real em HPC.",
+      "Formação de 240 horas-aula em Inteligência Artificial Aplicada do Instituto de Inteligência Artificial do LNCC, com prática real no supercomputador Santos Dumont.",
     "meta.titulo.ensino": "Área de ensino — PEIA-HPC",
     "meta.desc.ensino":
       "Aulas em vídeo do curso de Inteligência Artificial Aplicada do PEIA-HPC: 20 semanas em cinco fases, com notebooks práticos executados no supercomputador SDumont.",
@@ -40,8 +40,8 @@ window.PEIA_I18N = {
       "O PEIA-HPC leva a infraestrutura nacional de computação de alto desempenho para o ensino técnico. O aluno não só usa ferramentas de IA — ele submete jobs, mede desempenho real de GPU e entende o que acontece por baixo do capô.",
     "hero.btn.aulas": "Entrar na área de ensino",
     "hero.btn.projeto": "Conhecer o projeto",
-    "hero.cred.1": "Ensino técnico profissional",
-    "hero.cred.2": "LNCC · Instituto de IA",
+    "hero.cred.1": "Instituto de IA do LNCC",
+    "hero.cred.2": "SDumont · SINAPAD",
     "hero.cred.3": "240 h/a · 20 semanas",
     "hero.legenda":
       "<strong>Asa-Nó</strong> — a asa do 14-Bis de Santos Dumont fundida a uma malha de nós de computação. Um único nó âmbar quebra a simetria: o ponto de inovação.",
@@ -72,7 +72,7 @@ window.PEIA_I18N = {
     "curso.selo": "O curso",
     "curso.titulo": "Inteligência Artificial Aplicada",
     "curso.texto":
-      "Qualificação profissional no eixo de Informação e Comunicação. As 240 horas-aula se organizam em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC correspondente.",
+      "Formação oferecida pelo Instituto de Inteligência Artificial do LNCC (IA-LNCC), no eixo de Informação e Comunicação. As 240 horas-aula se organizam em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC correspondente.",
 
     "curso.fato.1.r": "Carga horária",
     "curso.fato.1.v": "240 horas-aula",
@@ -165,10 +165,10 @@ window.PEIA_I18N = {
     "coord.texto":
       "O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica — e é coordenado pelas duas pontas dessa ponte.",
 
-    "coord.b.papel": "Coordenação · Ensino técnico",
+    "coord.b.papel": "Coordenação · FAETEC",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
     "coord.b.bio":
-      "Professor de ensino técnico e idealizador do PEIA-HPC. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.",
+      "Professor da FAETEC e idealizador do PEIA-HPC. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.",
     "coord.b.btn": "Página do professor",
 
     "coord.f.papel": "Coordenação · LNCC / MCTI",
@@ -181,7 +181,7 @@ window.PEIA_I18N = {
     "coord.btn.repo": "Ver o repositório do projeto",
 
     "apoio.nota":
-      "O PEIA-HPC é realizado com apoio do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong> e com recursos do <strong>Supercomputador Santos Dumont</strong>, do LNCC/MCTI, no âmbito do SINAPAD.",
+      "O PEIA-HPC é uma formação do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong>, realizada com recursos do <strong>Supercomputador Santos Dumont</strong>, do LNCC/MCTI, no âmbito do SINAPAD.",
 
     /* --- Chamada final --------------------------------------------------- */
     "cta.titulo": "Comece pela primeira aula",
@@ -201,7 +201,7 @@ window.PEIA_I18N = {
     "rodape.link.relatorio": "Relatório técnico",
     "rodape.link.identidade": "Identidade visual",
     "rodape.agradecimento":
-      "Os experimentos e as atividades práticas deste projeto foram realizados com recursos do Supercomputador SDumont, do <strong>Laboratório Nacional de Computação Científica (LNCC/MCTI)</strong>. O projeto conta com o apoio do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong> e é coordenado em conjunto com o pesquisador <strong>Fábio Porto</strong>, a quem agradecemos, junto ao LNCC, pela colaboração que o viabilizou. O PEIA-HPC é vinculado ao SINAPAD.",
+      "Os experimentos e as atividades práticas deste projeto foram realizados com recursos do Supercomputador SDumont, do <strong>Laboratório Nacional de Computação Científica (LNCC/MCTI)</strong>. O PEIA-HPC é uma formação do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong>, vinculada ao SINAPAD, coordenada em conjunto com o pesquisador <strong>Fábio Porto</strong>, a quem agradecemos, junto ao LNCC, pela colaboração que a viabilizou.",
     "rodape.licenca": "Conteúdo licenciado sob Apache 2.0",
     "rodape.direitos": "Projeto educacional e científico aberto",
 
@@ -250,7 +250,7 @@ window.PEIA_I18N = {
     /* --- Metadata and navigation ----------------------------------------- */
     "meta.titulo.index": "PEIA-HPC — Applied AI and scientific computing education",
     "meta.desc.index":
-      "PEIA-HPC brings the Santos Dumont supercomputer into the technical high school classroom. A 240-hour Applied Artificial Intelligence course with real hands-on HPC.",
+      "A 240-hour Applied Artificial Intelligence programme from the LNCC Artificial Intelligence Institute, with real hands-on work on the Santos Dumont supercomputer.",
     "meta.titulo.ensino": "Learning area — PEIA-HPC",
     "meta.desc.ensino":
       "Video lessons from the PEIA-HPC Applied Artificial Intelligence course: 20 weeks in five phases, with hands-on notebooks run on the SDumont supercomputer.",
@@ -276,8 +276,8 @@ window.PEIA_I18N = {
       "PEIA-HPC brings Brazil's national high performance computing infrastructure into technical education. Students don't just use AI tools — they submit jobs, measure real GPU performance and understand what happens under the hood.",
     "hero.btn.aulas": "Enter the learning area",
     "hero.btn.projeto": "About the project",
-    "hero.cred.1": "Technical professional education",
-    "hero.cred.2": "LNCC · Instituto de IA",
+    "hero.cred.1": "LNCC AI Institute",
+    "hero.cred.2": "SDumont · SINAPAD",
     "hero.cred.3": "240 class hours · 20 weeks",
     "hero.legenda":
       "<strong>Wing-Node</strong> — the wing of Santos Dumont's 14-Bis fused with a mesh of compute nodes. A single amber node breaks the symmetry: the point of innovation.",
@@ -308,7 +308,7 @@ window.PEIA_I18N = {
     "curso.selo": "The course",
     "curso.titulo": "Applied Artificial Intelligence",
     "curso.texto":
-      "A professional qualification in the Information and Communication axis. The 240 class hours are organized into five phases, aligning each curriculum topic, week by week, with its corresponding HPC layer.",
+      "A programme offered by the LNCC Artificial Intelligence Institute (IA-LNCC), in the Information and Communication axis. The 240 class hours are organized into five phases, aligning each curriculum topic, week by week, with its corresponding HPC layer.",
 
     "curso.fato.1.r": "Workload",
     "curso.fato.1.v": "240 class hours",
@@ -401,10 +401,10 @@ window.PEIA_I18N = {
     "coord.texto":
       "PEIA-HPC grows out of the meeting between the technical-school classroom and scientific computing research — and it is coordinated from both ends of that bridge.",
 
-    "coord.b.papel": "Coordination · Technical education",
+    "coord.b.papel": "Coordination · FAETEC",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
     "coord.b.bio":
-      "Technical education teacher and originator of PEIA-HPC. Responsible for the project's design, for deploying the computing environment on SDumont and for producing the course's teaching material.",
+      "Teacher at FAETEC and originator of PEIA-HPC. Responsible for the project's design, for deploying the computing environment on SDumont and for producing the course's teaching material.",
     "coord.b.btn": "Instructor's page",
 
     "coord.f.papel": "Coordination · LNCC / MCTI",
@@ -417,7 +417,7 @@ window.PEIA_I18N = {
     "coord.btn.repo": "See the project repository",
 
     "apoio.nota":
-      "PEIA-HPC is carried out with the support of the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong> and with resources from the <strong>Santos Dumont Supercomputer</strong>, LNCC/MCTI, within SINAPAD.",
+      "PEIA-HPC is a programme of the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong>, carried out with resources from the <strong>Santos Dumont Supercomputer</strong>, LNCC/MCTI, within SINAPAD.",
 
     /* --- Final call ------------------------------------------------------ */
     "cta.titulo": "Start with the first lesson",
@@ -437,7 +437,7 @@ window.PEIA_I18N = {
     "rodape.link.relatorio": "Technical report",
     "rodape.link.identidade": "Visual identity",
     "rodape.agradecimento":
-      "The experiments and hands-on activities of this project were carried out using resources of the SDumont supercomputer, provided by the <strong>National Laboratory for Scientific Computing (LNCC/MCTI, Brazil)</strong>. The project is supported by the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong> and co-coordinated by researcher <strong>Fábio Porto</strong>, whom we thank, together with LNCC, for the collaboration that made it possible. PEIA-HPC is affiliated with SINAPAD.",
+      "The experiments and hands-on activities of this project were carried out using resources of the SDumont supercomputer, provided by the <strong>National Laboratory for Scientific Computing (LNCC/MCTI, Brazil)</strong>. PEIA-HPC is a programme of the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong>, affiliated with SINAPAD, co-coordinated by researcher <strong>Fábio Porto</strong>, whom we thank, together with LNCC, for the collaboration that made it possible.",
     "rodape.licenca": "Content licensed under Apache 2.0",
     "rodape.direitos": "Open educational and scientific project",
 
