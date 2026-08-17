@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PEIA-HPC — dicionário bilíngue (pt / en)
+   PEIA-HPC · dicionário bilíngue (pt / en)
    Uso no HTML:
      data-i18n="chave"            → define textContent
      data-i18n-html="chave"       → define innerHTML (para trechos com marcação)
@@ -12,10 +12,10 @@
 window.PEIA_I18N = {
   pt: {
     /* --- Metadados e navegação ------------------------------------------ */
-    "meta.titulo.index": "PEIA-HPC — Formação em IA aplicada e computação científica",
+    "meta.titulo.index": "PEIA-HPC · Formação em IA aplicada e computação científica",
     "meta.desc.index":
       "Formação de 240 horas-aula em Inteligência Artificial Aplicada do Instituto de Inteligência Artificial do LNCC, com prática real no supercomputador Santos Dumont.",
-    "meta.titulo.ensino": "Área de ensino — PEIA-HPC",
+    "meta.titulo.ensino": "Área de ensino · PEIA-HPC",
     "meta.desc.ensino":
       "Aulas em vídeo do curso de Inteligência Artificial Aplicada do PEIA-HPC: 20 semanas em cinco fases, com notebooks práticos executados no supercomputador SDumont.",
 
@@ -37,14 +37,14 @@ window.PEIA_I18N = {
     "hero.selo.texto": "Supercomputador Santos Dumont · LNCC/MCTI",
     "hero.titulo": "O supercomputador entra na <em>sala de aula</em>",
     "hero.sub":
-      "O PEIA-HPC leva a infraestrutura nacional de computação de alto desempenho para o ensino técnico. O aluno não só usa ferramentas de IA — ele submete jobs, mede desempenho real de GPU e entende o que acontece por baixo do capô.",
+      "O PEIA-HPC leva a infraestrutura nacional de computação de alto desempenho para o ensino técnico. O aluno não só usa ferramentas de IA: submete jobs, mede desempenho real de GPU e entende o que acontece por baixo do capô.",
     "hero.btn.aulas": "Entrar na área de ensino",
     "hero.btn.projeto": "Conhecer o projeto",
     "hero.cred.1": "Instituto de IA do LNCC",
     "hero.cred.2": "SDumont · SINAPAD",
     "hero.cred.3": "240 h/a · 20 semanas",
     "hero.legenda":
-      "<strong>Asa-Nó</strong> — a asa do 14-Bis de Santos Dumont fundida a uma malha de nós de computação. Um único nó âmbar quebra a simetria: o ponto de inovação.",
+      "<strong>Asa-Nó</strong>: a asa do 14-Bis de Santos Dumont fundida a uma malha de nós de computação. Um único nó âmbar quebra a simetria e marca o ponto de inovação.",
 
     /* --- Indicadores ----------------------------------------------------- */
     "ind.1.r": "horas-aula presenciais",
@@ -57,16 +57,16 @@ window.PEIA_I18N = {
     "projeto.selo": "O projeto",
     "projeto.titulo": "Verticalizar, não acrescentar",
     "projeto.texto":
-      "A formação em IA no ensino técnico brasileiro costuma parar no uso de ferramentas prontas. Aqui, cada tópico do currículo aponta para um modelo de IA — e o percurso desce em profundidade sobre o mesmo objeto, até o aluno rodar, medir e ajustar esse modelo em um supercomputador nacional.",
+      "A formação em IA no ensino técnico brasileiro costuma parar no uso de ferramentas prontas. Aqui, cada tópico do currículo aponta para um modelo de IA, e o percurso desce em profundidade sobre o mesmo objeto, até o aluno rodar, medir e ajustar esse modelo em um supercomputador nacional.",
     "projeto.c1.t": "O mesmo objeto, duas profundidades",
     "projeto.c1.p":
       "A camada de HPC não é matéria nova no fim do curso. É o \"por baixo do capô\" de tudo que a turma já usa desde a primeira semana. Quando o currículo diz \"use este modelo\", o projeto pergunta: de onde ele veio, e podemos rodá-lo nós mesmos?",
     "projeto.c2.t": "Infraestrutura nacional de verdade",
     "projeto.c2.p":
-      "As práticas rodam no Santos Dumont, o supercomputador Tier-0 do SINAPAD, no LNCC. Nada de simulador: submissão via Slurm, GPUs Tesla V100 em NVLink, armazenamento Lustre e rede InfiniBand — o ambiente real da pesquisa científica.",
+      "As práticas rodam no Santos Dumont, o supercomputador Tier-0 do SINAPAD, no LNCC. Nada de simulador: submissão via Slurm, GPUs Tesla V100 em NVLink, armazenamento Lustre e rede InfiniBand. É o ambiente real da pesquisa científica.",
     "projeto.c3.t": "Aberto, auditável, reprodutível",
     "projeto.c3.p":
-      "Todo o material — notebooks, scripts de submissão, benchmarks e o relatório técnico de implantação — é público sob Apache 2.0. O registro dos erros tem valor didático equivalente ao dos acertos, e por isso também está documentado.",
+      "Todo o material é público sob Apache 2.0: notebooks, scripts de submissão, benchmarks e o relatório técnico de implantação. O registro dos erros tem valor didático equivalente ao dos acertos, e por isso também está documentado.",
 
     /* --- O curso --------------------------------------------------------- */
     "curso.selo": "O curso",
@@ -113,7 +113,7 @@ window.PEIA_I18N = {
     "infra.selo": "Infraestrutura e resultados",
     "infra.titulo": "Medido dentro do cluster, não copiado da documentação",
     "infra.texto":
-      "Toda especificação abaixo foi obtida dentro de jobs submetidos ao SDumont. Os benchmarks de comunicação e de treino são os mesmos que a turma reproduz nas Fases 2 e 3 — é assim que o aluno aprende a ler um número de desempenho.",
+      "Toda especificação abaixo foi obtida dentro de jobs submetidos ao SDumont. Os benchmarks de comunicação e de treino são os mesmos que a turma reproduz nas Fases 2 e 3. É assim que o aluno aprende a ler um número de desempenho.",
 
     "infra.no.cap": "Nó de computação · partição sequana_gpu_dev",
     "infra.th.componente": "Componente",
@@ -129,7 +129,7 @@ window.PEIA_I18N = {
     "infra.no.5.r": "Rede",
     "infra.no.5.v": "2 × Mellanox InfiniBand, com afinidade NUMA por par de GPUs",
     "infra.no.6.r": "Armazenamento",
-    "infra.no.6.v": "/prj — 649 TB em NFS · /scratch — 1,4 PB em Lustre",
+    "infra.no.6.v": "/prj: 649 TB em NFS · /scratch: 1,4 PB em Lustre",
 
     "infra.nccl.cap": "All-reduce NCCL em um nó com 4 GPUs",
     "infra.th.mensagem": "Tamanho da mensagem",
@@ -161,7 +161,7 @@ window.PEIA_I18N = {
     "coord.selo": "Coordenação",
     "coord.titulo": "Quem conduz o projeto",
     "coord.texto":
-      "O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica — e é coordenado pelas duas pontas dessa ponte.",
+      "O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica, e é coordenado pelas duas pontas dessa ponte.",
 
     "coord.b.papel": "Coordenação · FAETEC",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
@@ -210,7 +210,7 @@ window.PEIA_I18N = {
       "Assista à aula da semana e siga com o notebook prático correspondente, executado no SDumont. A trilha reproduz o plano de ensino integrado, da primeira linha de terminal ao benchmark em dois nós.",
 
     "ens.nota":
-      "<strong>Como acompanhar.</strong> Assista ao vídeo e depois abra o notebook da semana. A partir da Semana 4, todo comando pesado roda <strong>dentro de um job</strong> — nunca no nó de login. Os caminhos usam <code>$USER</code> e <code>/scratch/peia-hpc/$USER</code>.",
+      "<strong>Como acompanhar.</strong> Assista ao vídeo e depois abra o notebook da semana. A partir da Semana 4, todo comando pesado roda <strong>dentro de um job</strong>, nunca no nó de login. Os caminhos usam <code>$USER</code> e <code>/scratch/peia-hpc/$USER</code>.",
 
     "ens.playlist.btn": "Ver playlist completa",
     "ens.player.vazio.t": "Vídeo em breve",
@@ -246,10 +246,10 @@ window.PEIA_I18N = {
 
   en: {
     /* --- Metadata and navigation ----------------------------------------- */
-    "meta.titulo.index": "PEIA-HPC — Applied AI and scientific computing education",
+    "meta.titulo.index": "PEIA-HPC · Applied AI and scientific computing education",
     "meta.desc.index":
       "A 240-hour Applied Artificial Intelligence programme from the LNCC Artificial Intelligence Institute, with real hands-on work on the Santos Dumont supercomputer.",
-    "meta.titulo.ensino": "Learning area — PEIA-HPC",
+    "meta.titulo.ensino": "Learning area · PEIA-HPC",
     "meta.desc.ensino":
       "Video lessons from the PEIA-HPC Applied Artificial Intelligence course: 20 weeks in five phases, with hands-on notebooks run on the SDumont supercomputer.",
 
@@ -271,14 +271,14 @@ window.PEIA_I18N = {
     "hero.selo.texto": "Santos Dumont Supercomputer · LNCC/MCTI",
     "hero.titulo": "The supercomputer walks into the <em>classroom</em>",
     "hero.sub":
-      "PEIA-HPC brings Brazil's national high performance computing infrastructure into technical education. Students don't just use AI tools — they submit jobs, measure real GPU performance and understand what happens under the hood.",
+      "PEIA-HPC brings Brazil's national high performance computing infrastructure into technical education. Students don't just use AI tools: they submit jobs, measure real GPU performance and understand what happens under the hood.",
     "hero.btn.aulas": "Enter the learning area",
     "hero.btn.projeto": "About the project",
     "hero.cred.1": "LNCC AI Institute",
     "hero.cred.2": "SDumont · SINAPAD",
     "hero.cred.3": "240 class hours · 20 weeks",
     "hero.legenda":
-      "<strong>Wing-Node</strong> — the wing of Santos Dumont's 14-Bis fused with a mesh of compute nodes. A single amber node breaks the symmetry: the point of innovation.",
+      "<strong>Wing-Node</strong>: the wing of Santos Dumont's 14-Bis fused with a mesh of compute nodes. A single amber node breaks the symmetry and marks the point of innovation.",
 
     /* --- Key figures ----------------------------------------------------- */
     "ind.1.r": "in-person class hours",
@@ -291,16 +291,16 @@ window.PEIA_I18N = {
     "projeto.selo": "The project",
     "projeto.titulo": "Go deeper, don't bolt on",
     "projeto.texto":
-      "AI education in Brazilian technical schools typically stops at using off-the-shelf tools. Here, every curriculum topic points to an AI model — and the course descends into the same object until students run, measure and fine-tune that model on a national supercomputer.",
+      "AI education in Brazilian technical schools typically stops at using off-the-shelf tools. Here, every curriculum topic points to an AI model, and the course descends into the same object until students run, measure and fine-tune that model on a national supercomputer.",
     "projeto.c1.t": "One object, two depths",
     "projeto.c1.p":
       "The HPC layer is not new material tacked on at the end. It is the \"under the hood\" of everything the class has been using since week one. When the curriculum says \"use this model\", the project asks: where did it come from, and can we run it ourselves?",
     "projeto.c2.t": "Real national infrastructure",
     "projeto.c2.p":
-      "Hands-on work runs on Santos Dumont, SINAPAD's Tier-0 supercomputer at LNCC. No simulators: Slurm job submission, Tesla V100 GPUs on NVLink, Lustre storage and InfiniBand networking — the real environment of scientific research.",
+      "Hands-on work runs on Santos Dumont, SINAPAD's Tier-0 supercomputer at LNCC. No simulators: Slurm job submission, Tesla V100 GPUs on NVLink, Lustre storage and InfiniBand networking. It is the real environment of scientific research.",
     "projeto.c3.t": "Open, auditable, reproducible",
     "projeto.c3.p":
-      "All material — notebooks, submission scripts, benchmarks and the technical deployment report — is public under Apache 2.0. Recording the failures carries as much teaching value as recording the successes, so those are documented too.",
+      "All material is public under Apache 2.0: notebooks, submission scripts, benchmarks and the technical deployment report. Recording the failures carries as much teaching value as recording the successes, so those are documented too.",
 
     /* --- The course ------------------------------------------------------ */
     "curso.selo": "The course",
@@ -347,7 +347,7 @@ window.PEIA_I18N = {
     "infra.selo": "Infrastructure and results",
     "infra.titulo": "Measured inside the cluster, not copied from the docs",
     "infra.texto":
-      "Every specification below was obtained inside jobs submitted to SDumont. The communication and training benchmarks are the same ones the class reproduces in Phases 2 and 3 — that is how students learn to read a performance number.",
+      "Every specification below was obtained inside jobs submitted to SDumont. The communication and training benchmarks are the same ones the class reproduces in Phases 2 and 3. That is how students learn to read a performance number.",
 
     "infra.no.cap": "Compute node · sequana_gpu_dev partition",
     "infra.th.componente": "Component",
@@ -363,7 +363,7 @@ window.PEIA_I18N = {
     "infra.no.5.r": "Network",
     "infra.no.5.v": "2 × Mellanox InfiniBand, NUMA-affine to GPU pairs",
     "infra.no.6.r": "Storage",
-    "infra.no.6.v": "/prj — 649 TB on NFS · /scratch — 1.4 PB on Lustre",
+    "infra.no.6.v": "/prj: 649 TB on NFS · /scratch: 1.4 PB on Lustre",
 
     "infra.nccl.cap": "NCCL all-reduce on a single 4-GPU node",
     "infra.th.mensagem": "Message size",
@@ -395,7 +395,7 @@ window.PEIA_I18N = {
     "coord.selo": "Coordination",
     "coord.titulo": "Who leads the project",
     "coord.texto":
-      "PEIA-HPC grows out of the meeting between the technical-school classroom and scientific computing research — and it is coordinated from both ends of that bridge.",
+      "PEIA-HPC grows out of the meeting between the technical-school classroom and scientific computing research, and it is coordinated from both ends of that bridge.",
 
     "coord.b.papel": "Coordination · FAETEC",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
@@ -444,7 +444,7 @@ window.PEIA_I18N = {
       "Watch the week's lesson and continue with the matching hands-on notebook, run on SDumont. The track mirrors the integrated teaching plan, from the first terminal line to the two-node benchmark.",
 
     "ens.nota":
-      "<strong>How to follow along.</strong> Watch the video, then open the week's notebook. From Week 4 on, every heavy command runs <strong>inside a job</strong> — never on the login node. Paths use <code>$USER</code> and <code>/scratch/peia-hpc/$USER</code>.",
+      "<strong>How to follow along.</strong> Watch the video, then open the week's notebook. From Week 4 on, every heavy command runs <strong>inside a job</strong>, never on the login node. Paths use <code>$USER</code> and <code>/scratch/peia-hpc/$USER</code>.",
 
     "ens.playlist.btn": "View full playlist",
     "ens.player.vazio.t": "Video coming soon",

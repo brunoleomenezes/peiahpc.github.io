@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PEIA-HPC — comportamento comum a todas as páginas
+   PEIA-HPC · comportamento comum a todas as páginas
    Tema (claro/escuro), idioma (pt/en), navegação móvel e revelação em rolagem.
    ========================================================================== */
 

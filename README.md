@@ -1,6 +1,6 @@
 # peiahpc.github.io
 
-Site institucional e **área de ensino** do projeto **PEIA-HPC** — Formação Nacional em Inteligência Artificial Aplicada e Computação Científica utilizando Infraestrutura HPC do SINAPAD.
+Site institucional e **área de ensino** do projeto **PEIA-HPC**: Formação Nacional em Inteligência Artificial Aplicada e Computação Científica utilizando Infraestrutura HPC do SINAPAD.
 
 🔗 **https://peiahpc.github.io**
 
@@ -89,9 +89,9 @@ As decisões de forma (curvatura predominante, simetria com um acento assimétri
 
 - **Bilíngue PT/EN** com alternador que persiste a escolha; aceita também `?lang=pt` e `?lang=en` na URL. Os links para o repositório trocam automaticamente entre as versões PT e EN de cada documento.
 - **Tema claro e escuro**, seguindo a preferência do sistema, com alternância manual.
-- **Progresso do aluno** — aulas marcadas como assistidas ficam salvas no navegador.
+- **Progresso do aluno**: aulas marcadas como assistidas ficam salvas no navegador.
 - **Busca e filtro por fase** na trilha do curso; link direto para cada aula (ex.: `ensino.html#s07`).
-- **Acessibilidade** — navegação por teclado, foco visível, `prefers-reduced-motion`, contraste WCAG 2.1 e conteúdo legível sem JavaScript.
+- **Acessibilidade**: navegação por teclado, foco visível, `prefers-reduced-motion`, contraste WCAG 2.1 e conteúdo legível sem JavaScript.
 
 ## Desenvolvimento local
 

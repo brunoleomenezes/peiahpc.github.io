@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PEIA-HPC — área de ensino
+   PEIA-HPC · área de ensino
    Carrega dados/aulas.json, monta a trilha do curso, controla o player do
    YouTube, a busca, os filtros por fase e o progresso do aluno.
 

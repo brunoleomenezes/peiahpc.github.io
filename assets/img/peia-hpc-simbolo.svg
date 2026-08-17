@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="190 95 675 395" role="img" aria-label="Símbolo PEIA-HPC: asa ascendente e grafo de nós">
-  <title>PEIA-HPC — símbolo Asa-Nó</title>
+  <title>PEIA-HPC · símbolo Asa-Nó</title>
   <!-- Asa: traços azuis ascendentes (14-Bis de Santos Dumont / camadas de rede) -->
   <g fill="none" stroke-linecap="round">
     <path d="M210 470 C 360 470, 520 400, 630 270" stroke="#0072B2" stroke-width="22"/>

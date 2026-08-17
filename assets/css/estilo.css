@@ -1,8 +1,8 @@
 /* ==========================================================================
-   PEIA-HPC — folha de estilo do site
+   PEIA-HPC · folha de estilo do site
    Sistema visual derivado de identidade-visual/README.md do repositório peia-hpc:
    · Paleta Okabe-Ito (color-blind-safe): azul #0072B2, verde-azulado #009E73,
-     âmbar #E69F00 — contraste WCAG 2.1 (SC 1.4.3 texto, SC 1.4.11 gráficos).
+     âmbar #E69F00: contraste WCAG 2.1 (SC 1.4.3 texto, SC 1.4.11 gráficos).
    · Curvatura predominante (Bar & Neta, 2006) → raios generosos, sem cantos vivos.
    · Simetria dominante + um único ponto de assimetria por seção (o acento âmbar)
      (Bajaj & Bond, 2018).
@@ -28,7 +28,7 @@
   --preto: #111111;
   --cinza: #555555;
 
-  /* Superfícies — tema claro */
+  /* Superfícies: tema claro */
   --bg: #ffffff;
   --bg-alt: #f5f8fb;
   --superficie: #ffffff;
@@ -47,12 +47,12 @@
   --sombra-2: 0 2px 6px rgba(16, 38, 58, 0.07), 0 12px 28px rgba(16, 38, 58, 0.08);
   --sombra-3: 0 8px 20px rgba(16, 38, 58, 0.1), 0 24px 56px rgba(16, 38, 58, 0.12);
 
-  /* Fundo escuro fixo (hero, rodapé) — constante nos dois temas */
+  /* Fundo escuro fixo (hero, rodapé): constante nos dois temas */
   --noite: #071d2f;
   --noite-2: #0c2a44;
   --noite-3: #12395c;
 
-  /* Geometria — curvatura predominante */
+  /* Geometria: curvatura predominante */
   --r-sm: 8px;
   --r-md: 14px;
   --r-lg: 20px;
@@ -74,7 +74,7 @@
   --transicao: 180ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Tema escuro — por preferência do sistema, salvo escolha explícita */
+/* Tema escuro: por preferência do sistema, salvo escolha explícita */
 @media (prefers-color-scheme: dark) {
   :root:not([data-tema="claro"]) {
     --bg: #08192a;
@@ -95,7 +95,7 @@
   }
 }
 
-/* Tema escuro — escolha explícita do usuário */
+/* Tema escuro: escolha explícita do usuário */
 :root[data-tema="escuro"] {
   --bg: #08192a;
   --bg-alt: #0b2135;
@@ -1312,7 +1312,7 @@ td:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   12. Área de ensino — player
+   12. Área de ensino: player
    -------------------------------------------------------------------------- */
 
 .ensino {
@@ -1542,7 +1542,7 @@ td:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   13. Área de ensino — lista de aulas
+   13. Área de ensino: lista de aulas
    -------------------------------------------------------------------------- */
 
 .trilha {
