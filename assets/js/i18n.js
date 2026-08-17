@@ -17,7 +17,7 @@ window.PEIA_I18N = {
       "Formação de 240 horas-aula em Inteligência Artificial Aplicada do Instituto de Inteligência Artificial do LNCC, com prática real no supercomputador Santos Dumont.",
     "meta.titulo.ensino": "Área de ensino · PEIA-HPC",
     "meta.desc.ensino":
-      "Aulas em vídeo do curso de Inteligência Artificial Aplicada do PEIA-HPC: 20 semanas em cinco fases, com notebooks práticos executados no supercomputador SDumont.",
+      "Aulas em vídeo do curso de Inteligência Artificial Aplicada do PEIA-HPC: cinco fases, com notebooks práticos executados no supercomputador SDumont.",
 
     "marca.descritor": "IA aplicada · Computação científica",
     "pular": "Pular para o conteúdo",
@@ -42,13 +42,12 @@ window.PEIA_I18N = {
     "hero.btn.projeto": "Conhecer o projeto",
     "hero.cred.1": "Instituto de IA do LNCC",
     "hero.cred.2": "SDumont · SINAPAD",
-    "hero.cred.3": "240 h/a · 20 semanas",
+    "hero.cred.3": "240 horas-aula",
     "hero.legenda":
       "<strong>Asa-Nó</strong>: a asa do 14-Bis de Santos Dumont fundida a uma malha de nós de computação. Um único nó âmbar quebra a simetria e marca o ponto de inovação.",
 
     /* --- Indicadores ----------------------------------------------------- */
-    "ind.1.r": "horas-aula presenciais",
-    "ind.2.r": "semanas em cinco fases",
+    "ind.1.r": "horas-aula",
     "ind.3.r": "aulas com notebook prático",
     "ind.4.r": "GPUs V100 por nó, em NVLink",
     "ind.5.r": "eficiência de escala em 2 nós",
@@ -76,14 +75,6 @@ window.PEIA_I18N = {
 
     "curso.fato.1.r": "Carga horária",
     "curso.fato.1.v": "240 horas-aula",
-    "curso.fato.2.r": "Duração",
-    "curso.fato.2.v": "20 semanas · 12 h/a por semana, em três encontros",
-    "curso.fato.3.r": "Modalidade",
-    "curso.fato.3.v": "Presencial · 40% teórica, 60% prática",
-    "curso.fato.4.r": "Vagas",
-    "curso.fato.4.v": "20, com mínimo de 10",
-    "curso.fato.5.r": "Pré-requisitos",
-    "curso.fato.5.v": "Idade mínima de 16 anos e Ensino Fundamental II completo",
 
     "curso.fases.titulo": "As cinco fases",
     "curso.btn.plano": "Ler o plano de ensino integrado",
@@ -204,7 +195,7 @@ window.PEIA_I18N = {
     "rodape.direitos": "Projeto educacional e científico aberto",
 
     /* --- Área de ensino -------------------------------------------------- */
-    "ens.hero.selo": "20 semanas · 5 fases · 22 aulas",
+    "ens.hero.selo": "5 fases · 22 aulas",
     "ens.hero.titulo": "Área de ensino",
     "ens.hero.sub":
       "Assista à aula da semana e siga com o notebook prático correspondente, executado no SDumont. A trilha reproduz o plano de ensino integrado, da primeira linha de terminal ao benchmark em dois nós.",
@@ -251,7 +242,7 @@ window.PEIA_I18N = {
       "A 240-hour Applied Artificial Intelligence programme from the LNCC Artificial Intelligence Institute, with real hands-on work on the Santos Dumont supercomputer.",
     "meta.titulo.ensino": "Learning area · PEIA-HPC",
     "meta.desc.ensino":
-      "Video lessons from the PEIA-HPC Applied Artificial Intelligence course: 20 weeks in five phases, with hands-on notebooks run on the SDumont supercomputer.",
+      "Video lessons from the PEIA-HPC Applied Artificial Intelligence course: five phases, with hands-on notebooks run on the SDumont supercomputer.",
 
     "marca.descritor": "Applied AI · Scientific computing",
     "pular": "Skip to content",
@@ -276,13 +267,12 @@ window.PEIA_I18N = {
     "hero.btn.projeto": "About the project",
     "hero.cred.1": "LNCC AI Institute",
     "hero.cred.2": "SDumont · SINAPAD",
-    "hero.cred.3": "240 class hours · 20 weeks",
+    "hero.cred.3": "240 class hours",
     "hero.legenda":
       "<strong>Wing-Node</strong>: the wing of Santos Dumont's 14-Bis fused with a mesh of compute nodes. A single amber node breaks the symmetry and marks the point of innovation.",
 
     /* --- Key figures ----------------------------------------------------- */
-    "ind.1.r": "in-person class hours",
-    "ind.2.r": "weeks across five phases",
+    "ind.1.r": "class hours",
     "ind.3.r": "lessons with a hands-on notebook",
     "ind.4.r": "V100 GPUs per node, on NVLink",
     "ind.5.r": "scaling efficiency across 2 nodes",
@@ -310,14 +300,6 @@ window.PEIA_I18N = {
 
     "curso.fato.1.r": "Workload",
     "curso.fato.1.v": "240 class hours",
-    "curso.fato.2.r": "Duration",
-    "curso.fato.2.v": "20 weeks · 12 hours per week, across three sessions",
-    "curso.fato.3.r": "Format",
-    "curso.fato.3.v": "In person · 40% theory, 60% hands-on",
-    "curso.fato.4.r": "Seats",
-    "curso.fato.4.v": "20, minimum of 10",
-    "curso.fato.5.r": "Prerequisites",
-    "curso.fato.5.v": "Minimum age 16, lower secondary education completed",
 
     "curso.fases.titulo": "The five phases",
     "curso.btn.plano": "Read the integrated teaching plan",
@@ -438,7 +420,7 @@ window.PEIA_I18N = {
     "rodape.direitos": "Open educational and scientific project",
 
     /* --- Learning area --------------------------------------------------- */
-    "ens.hero.selo": "20 weeks · 5 phases · 22 lessons",
+    "ens.hero.selo": "5 phases · 22 lessons",
     "ens.hero.titulo": "Learning area",
     "ens.hero.sub":
       "Watch the week's lesson and continue with the matching hands-on notebook, run on SDumont. The track mirrors the integrated teaching plan, from the first terminal line to the two-node benchmark.",

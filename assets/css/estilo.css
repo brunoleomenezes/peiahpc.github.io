@@ -919,11 +919,11 @@ kbd {
   font-variant-numeric: tabular-nums;
 }
 
-.indicador:nth-child(3) .indicador__valor {
+.indicador:nth-child(2) .indicador__valor {
   color: var(--teal-texto);
 }
 
-.indicador:nth-child(5) .indicador__valor {
+.indicador:nth-child(4) .indicador__valor {
   color: var(--ambar-texto);
 }
 
