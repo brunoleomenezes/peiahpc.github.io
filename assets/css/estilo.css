@@ -1186,98 +1186,128 @@ td:first-child {
 }
 
 /* --------------------------------------------------------------------------
-   11. Professor
+   11. Coordenação
    -------------------------------------------------------------------------- */
 
-.professor {
+.coordenacao {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: clamp(1.5rem, 4vw, 2.75rem);
-  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: var(--gap);
+  align-items: stretch;
+}
+
+.coordenador {
+  display: flex;
+  flex-direction: column;
   background:
-    radial-gradient(560px 320px at 88% 12%, rgba(230, 159, 0, 0.1), transparent 62%),
+    radial-gradient(460px 260px at 92% 8%, rgba(0, 114, 178, 0.08), transparent 64%),
     var(--superficie);
   border: 1px solid var(--borda);
   border-radius: var(--r-xl);
-  padding: clamp(1.75rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 3vw, 2.1rem);
   box-shadow: var(--sombra-2);
+  transition: transform var(--transicao), box-shadow var(--transicao);
 }
 
-@media (max-width: 720px) {
-  .professor {
-    grid-template-columns: 1fr;
-    text-align: center;
-    justify-items: center;
-  }
+.coordenador:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--sombra-3);
 }
 
-.professor__retrato {
+.coordenador--lncc {
+  background:
+    radial-gradient(460px 260px at 92% 8%, rgba(0, 158, 115, 0.1), transparent 64%),
+    var(--superficie);
+}
+
+.coordenador__topo {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.coordenador__retrato {
   position: relative;
-  width: clamp(120px, 20vw, 158px);
+  width: 72px;
   aspect-ratio: 1;
   border-radius: var(--r-full);
   display: grid;
   place-items: center;
   background: linear-gradient(150deg, #0a2a44, #0072b2 62%, #009e73);
   color: #fff;
-  font-size: clamp(2.4rem, 5vw, 3.2rem);
+  font-size: 1.55rem;
   font-weight: 700;
   letter-spacing: -0.04em;
-  box-shadow: 0 12px 34px rgba(0, 114, 178, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 114, 178, 0.28);
   flex-shrink: 0;
 }
 
-.professor__retrato::after {
+.coordenador--lncc .coordenador__retrato {
+  background: linear-gradient(150deg, #0a2a44, #009e73 62%, #66c2a9);
+  box-shadow: 0 8px 24px rgba(0, 158, 115, 0.28);
+}
+
+.coordenador__retrato::after {
   /* Nó âmbar orbitando: o acento assimétrico da identidade */
   content: "";
   position: absolute;
-  right: 4%;
-  top: 8%;
-  width: 22%;
+  right: 2%;
+  top: 4%;
+  width: 24%;
   aspect-ratio: 1;
   border-radius: var(--r-full);
   background: var(--ambar);
   border: 3px solid var(--superficie);
 }
 
-.professor__papel {
-  font-size: 0.78rem;
-  font-weight: 680;
-  letter-spacing: 0.11em;
+.coordenador__papel {
+  font-size: 0.715rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--teal-texto);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
-.professor__nome {
-  font-size: clamp(1.4rem, 1.15rem + 1.1vw, 1.85rem);
-  margin-bottom: 0.5rem;
+.coordenador__nome {
+  font-size: clamp(1.2rem, 1.08rem + 0.5vw, 1.42rem);
+  margin-bottom: 0;
 }
 
-.professor__bio {
+.coordenador__bio {
   color: var(--texto-2);
-  max-width: 56ch;
-  margin-bottom: 1.4rem;
-  font-size: 0.975rem;
+  font-size: 0.955rem;
+  margin-bottom: 1.15rem;
 }
 
-.professor__ids {
+.coordenador__ids {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1.25rem;
-  margin-bottom: 1.6rem;
-  font-size: 0.86rem;
+  gap: 0.4rem 1.15rem;
+  margin: 0 0 1.4rem;
+  font-size: 0.845rem;
   color: var(--texto-3);
 }
 
-.professor__ids a {
+.coordenador__ids--linha {
+  display: block;
+  line-height: 1.55;
+}
+
+.coordenador__ids a {
   font-weight: 560;
 }
 
-@media (max-width: 720px) {
-  .professor__ids,
-  .grupo-botoes {
-    justify-content: center;
+.coordenador .grupo-botoes {
+  margin-top: auto;
+}
+
+@media (max-width: 480px) {
+  .coordenador__topo {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
   }
 }
 

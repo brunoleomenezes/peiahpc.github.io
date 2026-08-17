@@ -38,11 +38,31 @@
     "@type": "EducationalOrganization",
     "name": "FAETEC — Fundação de Apoio à Escola Técnica do Estado do Rio de Janeiro, Unidade Resende"
   },
-  "author": {
-    "@type": "Person",
-    "name": "Bruno Leonardo Santos Menezes",
-    "url": "https://brunoleomenezes.github.io/",
-    "identifier": "https://orcid.org/0000-0001-6249-2395"
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Bruno Leonardo Santos Menezes",
+      "url": "https://brunoleomenezes.github.io/",
+      "identifier": "https://orcid.org/0000-0001-6249-2395",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "FAETEC, Unidade Resende"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Fábio Porto",
+      "affiliation": {
+        "@type": "ResearchOrganization",
+        "name": "Laboratório Nacional de Computação Científica (LNCC/MCTI)",
+        "url": "https://www.lncc.br"
+      }
+    }
+  ],
+  "funder": {
+    "@type": "ResearchOrganization",
+    "name": "Instituto de Inteligência Artificial do LNCC (IA-LNCC)",
+    "url": "https://www.lncc.br"
   },
   "isAccessibleForFree": true,
   "license": "https://www.apache.org/licenses/LICENSE-2.0"
@@ -473,43 +493,80 @@
   </div>
 </section>
 
-<!-- ======================================================= Professor ==== -->
+<!-- ===================================================== Coordenação ==== -->
 <section class="secao secao--alt" id="professor">
   <div class="envoltorio">
 
     <div class="secao__cabecalho revelar">
-      <p class="selo" data-i18n="prof.selo">Professor</p>
+      <p class="selo" data-i18n="coord.selo">Coordenação</p>
+      <h2 data-i18n="coord.titulo">Quem conduz o projeto</h2>
+      <p class="texto-guia" data-i18n="coord.texto">O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica — e é coordenado pelas duas pontas dessa ponte.</p>
     </div>
 
-    <div class="professor revelar">
+    <div class="coordenacao">
 
-      <div class="professor__retrato" aria-hidden="true">BM</div>
+      <article class="coordenador revelar">
+        <header class="coordenador__topo">
+          <div class="coordenador__retrato" aria-hidden="true">BM</div>
+          <div>
+            <p class="coordenador__papel" data-i18n="coord.b.papel">Coordenação · FAETEC, Unidade Resende</p>
+            <h3 class="coordenador__nome" data-i18n="coord.b.nome">Bruno Leonardo Santos Menezes</h3>
+          </div>
+        </header>
 
-      <div>
-        <p class="professor__papel" data-i18n="prof.papel">Coordenação do projeto</p>
-        <h2 class="professor__nome" data-i18n="prof.nome">Bruno Leonardo Santos Menezes</h2>
-        <p class="professor__bio" data-i18n="prof.bio">Professor da FAETEC, Unidade Resende, e coordenador do PEIA-HPC. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.</p>
+        <p class="coordenador__bio" data-i18n="coord.b.bio">Professor da FAETEC, Unidade Resende. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.</p>
 
-        <p class="professor__ids">
+        <p class="coordenador__ids">
           <span>ORCID <a href="https://orcid.org/0000-0001-6249-2395" target="_blank" rel="noopener noreferrer">0000-0001-6249-2395</a></span>
           <span>Lattes <a href="http://lattes.cnpq.br/7671983530035555" target="_blank" rel="noopener noreferrer">7671983530035555</a></span>
         </p>
 
         <div class="grupo-botoes">
-          <a class="botao botao--primario" href="https://brunoleomenezes.github.io/" target="_blank" rel="noopener noreferrer">
-            <span data-i18n="prof.btn">Página do professor</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
-            <span class="oculto-visual" data-i18n="nav.novaAba">abre em nova aba</span>
-          </a>
-          <a class="botao botao--contorno" href="https://github.com/brunoleomenezes/peia-hpc" target="_blank" rel="noopener noreferrer">
-            <span data-i18n="prof.btn.repo">Ver o repositório do projeto</span>
+          <a class="botao botao--primario botao--pequeno" href="https://brunoleomenezes.github.io/" target="_blank" rel="noopener noreferrer">
+            <span data-i18n="coord.b.btn">Página do professor</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
             <span class="oculto-visual" data-i18n="nav.novaAba">abre em nova aba</span>
           </a>
         </div>
-      </div>
+      </article>
+
+      <article class="coordenador coordenador--lncc revelar">
+        <header class="coordenador__topo">
+          <div class="coordenador__retrato" aria-hidden="true">FP</div>
+          <div>
+            <p class="coordenador__papel" data-i18n="coord.f.papel">Coordenação · LNCC / MCTI</p>
+            <h3 class="coordenador__nome" data-i18n="coord.f.nome">Fábio Porto</h3>
+          </div>
+        </header>
+
+        <p class="coordenador__bio" data-i18n="coord.f.bio">Pesquisador sênior do Laboratório Nacional de Computação Científica (LNCC), onde coordena o Data Extreme Lab (DEXL) e o Instituto de Inteligência Artificial do LNCC. Pesquisa na fronteira entre gerenciamento de dados, aprendizado de máquina e inteligência artificial.</p>
+
+        <p class="coordenador__ids coordenador__ids--linha" data-i18n="coord.f.detalhe">Cátedra Internacional do INRIA (2024–2028) · Especialista do Global Partnership on AI (GPAI) · Membro da ACM e da SBC</p>
+
+        <div class="grupo-botoes">
+          <a class="botao botao--contorno botao--pequeno" href="https://www.lncc.br" target="_blank" rel="noopener noreferrer">
+            <span>LNCC / MCTI</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            <span class="oculto-visual" data-i18n="nav.novaAba">abre em nova aba</span>
+          </a>
+        </div>
+      </article>
 
     </div>
+
+    <div class="nota revelar" style="margin-top: var(--gap);">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.35-9-8.5A5.5 5.5 0 0112 6a5.5 5.5 0 019 6.5C19 16.65 12 21 12 21z"/></svg>
+      <p data-i18n-html="apoio.nota">O PEIA-HPC é realizado com apoio do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong>.</p>
+    </div>
+
+    <div class="grupo-botoes revelar" style="margin-top: 1.5rem;">
+      <a class="botao botao--contorno" href="https://github.com/brunoleomenezes/peia-hpc" target="_blank" rel="noopener noreferrer">
+        <span data-i18n="coord.btn.repo">Ver o repositório do projeto</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+        <span class="oculto-visual" data-i18n="nav.novaAba">abre em nova aba</span>
+      </a>
+    </div>
+
   </div>
 </section>
 

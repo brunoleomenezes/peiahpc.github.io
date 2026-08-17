@@ -26,7 +26,7 @@ window.PEIA_I18N = {
     "nav.curso": "O curso",
     "nav.infra": "Infraestrutura",
     "nav.ensino": "Área de ensino",
-    "nav.professor": "Professor",
+    "nav.professor": "Coordenação",
     "nav.abrirMenu": "Abrir menu de navegação",
     "nav.tema": "Alternar tema claro e escuro",
     "nav.idioma": "Idioma",
@@ -41,7 +41,7 @@ window.PEIA_I18N = {
     "hero.btn.aulas": "Entrar na área de ensino",
     "hero.btn.projeto": "Conhecer o projeto",
     "hero.cred.1": "FAETEC · Unidade Resende",
-    "hero.cred.2": "LNCC / SINAPAD",
+    "hero.cred.2": "LNCC · Instituto de IA",
     "hero.cred.3": "240 h/a · 20 semanas",
     "hero.legenda":
       "<strong>Asa-Nó</strong> — a asa do 14-Bis de Santos Dumont fundida a uma malha de nós de computação. Um único nó âmbar quebra a simetria: o ponto de inovação.",
@@ -159,14 +159,29 @@ window.PEIA_I18N = {
       "Cada uma das 20 semanas tem uma aula em vídeo e um notebook prático correspondente, além do módulo opcional de estudo de caso em duas partes. A trilha segue exatamente o plano de ensino integrado.",
     "teaser.btn": "Abrir a área de ensino",
 
-    /* --- Professor ------------------------------------------------------- */
-    "prof.selo": "Professor",
-    "prof.papel": "Coordenação do projeto",
-    "prof.nome": "Bruno Leonardo Santos Menezes",
-    "prof.bio":
-      "Professor da FAETEC, Unidade Resende, e coordenador do PEIA-HPC. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.",
-    "prof.btn": "Página do professor",
-    "prof.btn.repo": "Ver o repositório do projeto",
+    /* --- Coordenação ----------------------------------------------------- */
+    "coord.selo": "Coordenação",
+    "coord.titulo": "Quem conduz o projeto",
+    "coord.texto":
+      "O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica — e é coordenado pelas duas pontas dessa ponte.",
+
+    "coord.b.papel": "Coordenação · FAETEC, Unidade Resende",
+    "coord.b.nome": "Bruno Leonardo Santos Menezes",
+    "coord.b.bio":
+      "Professor da FAETEC, Unidade Resende. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.",
+    "coord.b.btn": "Página do professor",
+
+    "coord.f.papel": "Coordenação · LNCC / MCTI",
+    "coord.f.nome": "Fábio Porto",
+    "coord.f.bio":
+      "Pesquisador sênior do Laboratório Nacional de Computação Científica (LNCC), onde coordena o Data Extreme Lab (DEXL) e o Instituto de Inteligência Artificial do LNCC. Pesquisa na fronteira entre gerenciamento de dados, aprendizado de máquina e inteligência artificial.",
+    "coord.f.detalhe":
+      "Cátedra Internacional do INRIA (2024–2028) · Especialista do Global Partnership on AI (GPAI) · Membro da ACM e da SBC",
+
+    "coord.btn.repo": "Ver o repositório do projeto",
+
+    "apoio.nota":
+      "O PEIA-HPC é realizado com apoio do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong> e com recursos do <strong>Supercomputador Santos Dumont</strong>, do LNCC/MCTI, no âmbito do SINAPAD.",
 
     /* --- Chamada final --------------------------------------------------- */
     "cta.titulo": "Comece pela primeira aula",
@@ -186,7 +201,7 @@ window.PEIA_I18N = {
     "rodape.link.relatorio": "Relatório técnico",
     "rodape.link.identidade": "Identidade visual",
     "rodape.agradecimento":
-      "Os experimentos e as atividades práticas deste projeto foram realizados com recursos do Supercomputador SDumont, do <strong>Laboratório Nacional de Computação Científica (LNCC/MCTI)</strong>. Agradecemos, em especial, ao LNCC e ao pesquisador <strong>Fábio Porto</strong> pelo apoio e pela colaboração que viabilizaram este projeto. O PEIA-HPC é vinculado ao SINAPAD e desenvolvido no âmbito da FAETEC, Unidade Resende.",
+      "Os experimentos e as atividades práticas deste projeto foram realizados com recursos do Supercomputador SDumont, do <strong>Laboratório Nacional de Computação Científica (LNCC/MCTI)</strong>. O projeto conta com o apoio do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong> e é coordenado em conjunto com o pesquisador <strong>Fábio Porto</strong>, a quem agradecemos, junto ao LNCC, pela colaboração que o viabilizou. O PEIA-HPC é vinculado ao SINAPAD e desenvolvido no âmbito da FAETEC, Unidade Resende.",
     "rodape.licenca": "Conteúdo licenciado sob Apache 2.0",
     "rodape.direitos": "Projeto educacional e científico aberto",
 
@@ -247,7 +262,7 @@ window.PEIA_I18N = {
     "nav.curso": "The course",
     "nav.infra": "Infrastructure",
     "nav.ensino": "Learning area",
-    "nav.professor": "Instructor",
+    "nav.professor": "Coordination",
     "nav.abrirMenu": "Open navigation menu",
     "nav.tema": "Toggle light and dark theme",
     "nav.idioma": "Language",
@@ -262,7 +277,7 @@ window.PEIA_I18N = {
     "hero.btn.aulas": "Enter the learning area",
     "hero.btn.projeto": "About the project",
     "hero.cred.1": "FAETEC · Resende campus",
-    "hero.cred.2": "LNCC / SINAPAD",
+    "hero.cred.2": "LNCC · Instituto de IA",
     "hero.cred.3": "240 class hours · 20 weeks",
     "hero.legenda":
       "<strong>Wing-Node</strong> — the wing of Santos Dumont's 14-Bis fused with a mesh of compute nodes. A single amber node breaks the symmetry: the point of innovation.",
@@ -380,14 +395,29 @@ window.PEIA_I18N = {
       "Each of the 20 weeks has a video lesson and a matching hands-on notebook, plus an optional two-part case study module. The track follows the integrated teaching plan exactly.",
     "teaser.btn": "Open the learning area",
 
-    /* --- Instructor ------------------------------------------------------ */
-    "prof.selo": "Instructor",
-    "prof.papel": "Project coordination",
-    "prof.nome": "Bruno Leonardo Santos Menezes",
-    "prof.bio":
-      "Teacher at FAETEC, Resende campus, and coordinator of PEIA-HPC. Responsible for the project's design, for deploying the computing environment on SDumont and for producing the course's teaching material.",
-    "prof.btn": "Instructor's page",
-    "prof.btn.repo": "See the project repository",
+    /* --- Coordination ---------------------------------------------------- */
+    "coord.selo": "Coordination",
+    "coord.titulo": "Who leads the project",
+    "coord.texto":
+      "PEIA-HPC grows out of the meeting between the technical-school classroom and scientific computing research — and it is coordinated from both ends of that bridge.",
+
+    "coord.b.papel": "Coordination · FAETEC, Resende campus",
+    "coord.b.nome": "Bruno Leonardo Santos Menezes",
+    "coord.b.bio":
+      "Teacher at FAETEC, Resende campus. Responsible for the project's design, for deploying the computing environment on SDumont and for producing the course's teaching material.",
+    "coord.b.btn": "Instructor's page",
+
+    "coord.f.papel": "Coordination · LNCC / MCTI",
+    "coord.f.nome": "Fábio Porto",
+    "coord.f.bio":
+      "Senior researcher at the National Laboratory for Scientific Computing (LNCC), where he leads the Data Extreme Lab (DEXL) and the LNCC Artificial Intelligence Institute. His research sits at the frontier of data management, machine learning and artificial intelligence.",
+    "coord.f.detalhe":
+      "INRIA International Chair (2024–2028) · Expert at the Global Partnership on AI (GPAI) · Member of ACM and SBC",
+
+    "coord.btn.repo": "See the project repository",
+
+    "apoio.nota":
+      "PEIA-HPC is carried out with the support of the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong> and with resources from the <strong>Santos Dumont Supercomputer</strong>, LNCC/MCTI, within SINAPAD.",
 
     /* --- Final call ------------------------------------------------------ */
     "cta.titulo": "Start with the first lesson",
@@ -407,7 +437,7 @@ window.PEIA_I18N = {
     "rodape.link.relatorio": "Technical report",
     "rodape.link.identidade": "Visual identity",
     "rodape.agradecimento":
-      "The experiments and hands-on activities of this project were carried out using resources of the SDumont supercomputer, provided by the <strong>National Laboratory for Scientific Computing (LNCC/MCTI, Brazil)</strong>. We especially thank LNCC and researcher <strong>Fábio Porto</strong> for the support and collaboration that made this project possible. PEIA-HPC is affiliated with SINAPAD and developed within FAETEC, Resende campus.",
+      "The experiments and hands-on activities of this project were carried out using resources of the SDumont supercomputer, provided by the <strong>National Laboratory for Scientific Computing (LNCC/MCTI, Brazil)</strong>. The project is supported by the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong> and co-coordinated by researcher <strong>Fábio Porto</strong>, whom we thank, together with LNCC, for the collaboration that made it possible. PEIA-HPC is affiliated with SINAPAD and developed within FAETEC, Resende campus.",
     "rodape.licenca": "Content licensed under Apache 2.0",
     "rodape.direitos": "Open educational and scientific project",
 
