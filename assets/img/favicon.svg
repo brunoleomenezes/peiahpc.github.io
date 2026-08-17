@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PEIA-HPC">
+  <title>PEIA-HPC</title>
+  <!-- Versão reduzida do símbolo Asa-Nó: asa + nó âmbar (ver identidade-visual/README.md) -->
+  <rect width="64" height="64" rx="14" fill="#0A2A43"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M12 47 C 25 47, 37 40, 44 27" stroke="#0072B2" stroke-width="7"/>
+    <path d="M18 44 C 29 44, 39 38, 45 26" stroke="#5AA3D0" stroke-width="4.5"/>
+  </g>
+  <line x1="45" y1="25" x2="52" y2="15" stroke="#E69F00" stroke-width="3.4" stroke-linecap="round"/>
+  <circle cx="45" cy="25" r="5" fill="#009E73"/>
+  <circle cx="52" cy="15" r="5.6" fill="#E69F00"/>
+</svg>
