@@ -14,7 +14,7 @@ window.PEIA_I18N = {
     /* --- Metadados e navegação ------------------------------------------ */
     "meta.titulo.index": "PEIA-HPC — Formação em IA aplicada e computação científica",
     "meta.desc.index":
-      "O PEIA-HPC leva o supercomputador Santos Dumont para a sala de aula do ensino técnico. Curso de 240 horas-aula em Inteligência Artificial Aplicada, FAETEC Resende, com prática real em HPC.",
+      "O PEIA-HPC leva o supercomputador Santos Dumont para a sala de aula do ensino técnico. Curso de 240 horas-aula em Inteligência Artificial Aplicada, com prática real em HPC.",
     "meta.titulo.ensino": "Área de ensino — PEIA-HPC",
     "meta.desc.ensino":
       "Aulas em vídeo do curso de Inteligência Artificial Aplicada do PEIA-HPC: 20 semanas em cinco fases, com notebooks práticos executados no supercomputador SDumont.",
@@ -40,7 +40,7 @@ window.PEIA_I18N = {
       "O PEIA-HPC leva a infraestrutura nacional de computação de alto desempenho para o ensino técnico. O aluno não só usa ferramentas de IA — ele submete jobs, mede desempenho real de GPU e entende o que acontece por baixo do capô.",
     "hero.btn.aulas": "Entrar na área de ensino",
     "hero.btn.projeto": "Conhecer o projeto",
-    "hero.cred.1": "FAETEC · Unidade Resende",
+    "hero.cred.1": "Ensino técnico profissional",
     "hero.cred.2": "LNCC · Instituto de IA",
     "hero.cred.3": "240 h/a · 20 semanas",
     "hero.legenda":
@@ -72,7 +72,7 @@ window.PEIA_I18N = {
     "curso.selo": "O curso",
     "curso.titulo": "Inteligência Artificial Aplicada",
     "curso.texto":
-      "Qualificação profissional ofertada pela FAETEC, Unidade Resende, no eixo de Informação e Comunicação. As 240 horas-aula se organizam em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC correspondente.",
+      "Qualificação profissional no eixo de Informação e Comunicação. As 240 horas-aula se organizam em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC correspondente.",
 
     "curso.fato.1.r": "Carga horária",
     "curso.fato.1.v": "240 horas-aula",
@@ -85,7 +85,7 @@ window.PEIA_I18N = {
     "curso.fato.5.r": "Pré-requisitos",
     "curso.fato.5.v": "Idade mínima de 16 anos e Ensino Fundamental II completo",
     "curso.fato.6.r": "Certificação",
-    "curso.fato.6.v": "Certificado de Qualificação Profissional emitido pela FAETEC",
+    "curso.fato.6.v": "Certificado de Qualificação Profissional",
 
     "curso.fases.titulo": "As cinco fases",
     "curso.btn.plano": "Ler o plano de ensino integrado",
@@ -165,10 +165,10 @@ window.PEIA_I18N = {
     "coord.texto":
       "O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica — e é coordenado pelas duas pontas dessa ponte.",
 
-    "coord.b.papel": "Coordenação · FAETEC, Unidade Resende",
+    "coord.b.papel": "Coordenação · Ensino técnico",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
     "coord.b.bio":
-      "Professor da FAETEC, Unidade Resende. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.",
+      "Professor de ensino técnico e idealizador do PEIA-HPC. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.",
     "coord.b.btn": "Página do professor",
 
     "coord.f.papel": "Coordenação · LNCC / MCTI",
@@ -201,7 +201,7 @@ window.PEIA_I18N = {
     "rodape.link.relatorio": "Relatório técnico",
     "rodape.link.identidade": "Identidade visual",
     "rodape.agradecimento":
-      "Os experimentos e as atividades práticas deste projeto foram realizados com recursos do Supercomputador SDumont, do <strong>Laboratório Nacional de Computação Científica (LNCC/MCTI)</strong>. O projeto conta com o apoio do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong> e é coordenado em conjunto com o pesquisador <strong>Fábio Porto</strong>, a quem agradecemos, junto ao LNCC, pela colaboração que o viabilizou. O PEIA-HPC é vinculado ao SINAPAD e desenvolvido no âmbito da FAETEC, Unidade Resende.",
+      "Os experimentos e as atividades práticas deste projeto foram realizados com recursos do Supercomputador SDumont, do <strong>Laboratório Nacional de Computação Científica (LNCC/MCTI)</strong>. O projeto conta com o apoio do <strong>Instituto de Inteligência Artificial do LNCC (IA-LNCC)</strong> e é coordenado em conjunto com o pesquisador <strong>Fábio Porto</strong>, a quem agradecemos, junto ao LNCC, pela colaboração que o viabilizou. O PEIA-HPC é vinculado ao SINAPAD.",
     "rodape.licenca": "Conteúdo licenciado sob Apache 2.0",
     "rodape.direitos": "Projeto educacional e científico aberto",
 
@@ -226,7 +226,7 @@ window.PEIA_I18N = {
     "ens.filtros.rotulo": "Filtrar por fase",
     "ens.vazio": "Nenhuma aula corresponde à busca.",
 
-    "ens.detalhe.curriculo": "Currículo FAETEC",
+    "ens.detalhe.curriculo": "Currículo do curso",
     "ens.detalhe.hpc": "Camada HPC",
     "ens.detalhe.pratica": "Prática no SDumont",
     "ens.detalhe.entregavel": "Entregável",
@@ -250,7 +250,7 @@ window.PEIA_I18N = {
     /* --- Metadata and navigation ----------------------------------------- */
     "meta.titulo.index": "PEIA-HPC — Applied AI and scientific computing education",
     "meta.desc.index":
-      "PEIA-HPC brings the Santos Dumont supercomputer into the technical high school classroom. A 240-hour Applied Artificial Intelligence course at FAETEC Resende, with real hands-on HPC.",
+      "PEIA-HPC brings the Santos Dumont supercomputer into the technical high school classroom. A 240-hour Applied Artificial Intelligence course with real hands-on HPC.",
     "meta.titulo.ensino": "Learning area — PEIA-HPC",
     "meta.desc.ensino":
       "Video lessons from the PEIA-HPC Applied Artificial Intelligence course: 20 weeks in five phases, with hands-on notebooks run on the SDumont supercomputer.",
@@ -276,7 +276,7 @@ window.PEIA_I18N = {
       "PEIA-HPC brings Brazil's national high performance computing infrastructure into technical education. Students don't just use AI tools — they submit jobs, measure real GPU performance and understand what happens under the hood.",
     "hero.btn.aulas": "Enter the learning area",
     "hero.btn.projeto": "About the project",
-    "hero.cred.1": "FAETEC · Resende campus",
+    "hero.cred.1": "Technical professional education",
     "hero.cred.2": "LNCC · Instituto de IA",
     "hero.cred.3": "240 class hours · 20 weeks",
     "hero.legenda":
@@ -308,7 +308,7 @@ window.PEIA_I18N = {
     "curso.selo": "The course",
     "curso.titulo": "Applied Artificial Intelligence",
     "curso.texto":
-      "A professional qualification offered by FAETEC, Resende campus, in the Information and Communication axis. The 240 class hours are organized into five phases, aligning each curriculum topic, week by week, with its corresponding HPC layer.",
+      "A professional qualification in the Information and Communication axis. The 240 class hours are organized into five phases, aligning each curriculum topic, week by week, with its corresponding HPC layer.",
 
     "curso.fato.1.r": "Workload",
     "curso.fato.1.v": "240 class hours",
@@ -321,7 +321,7 @@ window.PEIA_I18N = {
     "curso.fato.5.r": "Prerequisites",
     "curso.fato.5.v": "Minimum age 16, lower secondary education completed",
     "curso.fato.6.r": "Certification",
-    "curso.fato.6.v": "Professional Qualification Certificate issued by FAETEC",
+    "curso.fato.6.v": "Professional Qualification Certificate",
 
     "curso.fases.titulo": "The five phases",
     "curso.btn.plano": "Read the integrated teaching plan",
@@ -401,10 +401,10 @@ window.PEIA_I18N = {
     "coord.texto":
       "PEIA-HPC grows out of the meeting between the technical-school classroom and scientific computing research — and it is coordinated from both ends of that bridge.",
 
-    "coord.b.papel": "Coordination · FAETEC, Resende campus",
+    "coord.b.papel": "Coordination · Technical education",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
     "coord.b.bio":
-      "Teacher at FAETEC, Resende campus. Responsible for the project's design, for deploying the computing environment on SDumont and for producing the course's teaching material.",
+      "Technical education teacher and originator of PEIA-HPC. Responsible for the project's design, for deploying the computing environment on SDumont and for producing the course's teaching material.",
     "coord.b.btn": "Instructor's page",
 
     "coord.f.papel": "Coordination · LNCC / MCTI",
@@ -437,7 +437,7 @@ window.PEIA_I18N = {
     "rodape.link.relatorio": "Technical report",
     "rodape.link.identidade": "Visual identity",
     "rodape.agradecimento":
-      "The experiments and hands-on activities of this project were carried out using resources of the SDumont supercomputer, provided by the <strong>National Laboratory for Scientific Computing (LNCC/MCTI, Brazil)</strong>. The project is supported by the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong> and co-coordinated by researcher <strong>Fábio Porto</strong>, whom we thank, together with LNCC, for the collaboration that made it possible. PEIA-HPC is affiliated with SINAPAD and developed within FAETEC, Resende campus.",
+      "The experiments and hands-on activities of this project were carried out using resources of the SDumont supercomputer, provided by the <strong>National Laboratory for Scientific Computing (LNCC/MCTI, Brazil)</strong>. The project is supported by the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong> and co-coordinated by researcher <strong>Fábio Porto</strong>, whom we thank, together with LNCC, for the collaboration that made it possible. PEIA-HPC is affiliated with SINAPAD.",
     "rodape.licenca": "Content licensed under Apache 2.0",
     "rodape.direitos": "Open educational and scientific project",
 
@@ -462,7 +462,7 @@ window.PEIA_I18N = {
     "ens.filtros.rotulo": "Filter by phase",
     "ens.vazio": "No lesson matches your search.",
 
-    "ens.detalhe.curriculo": "FAETEC curriculum",
+    "ens.detalhe.curriculo": "Course curriculum",
     "ens.detalhe.hpc": "HPC layer",
     "ens.detalhe.pratica": "Practice on SDumont",
     "ens.detalhe.entregavel": "Deliverable",

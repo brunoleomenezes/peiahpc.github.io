@@ -108,4 +108,4 @@ Apache 2.0, mesma licença do repositório principal do projeto.
 
 ---
 
-*Projeto PEIA-HPC · Proposta SINAPAD 249134 · Supercomputador Santos Dumont, LNCC/MCTI · FAETEC, Unidade Resende.*
+*Projeto PEIA-HPC · Proposta SINAPAD 249134 · Supercomputador Santos Dumont, LNCC/MCTI.*

@@ -27,5 +27,5 @@
   <!-- Wordmark e descritor -->
   <text x="500" y="575" text-anchor="middle" font-family="Inter, 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif" font-size="96" font-weight="700" letter-spacing="2" fill="#111111">PEIA-HPC</text>
   <text x="500" y="626" text-anchor="middle" font-family="Inter, 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif" font-size="27" fill="#555555">Formação em IA aplicada e computação científica</text>
-  <text x="500" y="663" text-anchor="middle" font-family="Inter, 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif" font-size="27" fill="#555555">FAETEC Resende · SDumont / LNCC / SINAPAD</text>
+  <text x="500" y="663" text-anchor="middle" font-family="Inter, 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif" font-size="27" fill="#555555">SDumont / LNCC / SINAPAD</text>
 </svg>
