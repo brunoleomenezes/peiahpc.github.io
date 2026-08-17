@@ -923,7 +923,7 @@ kbd {
   color: var(--teal-texto);
 }
 
-.indicador:nth-child(4) .indicador__valor {
+.indicador:nth-child(3) .indicador__valor {
   color: var(--ambar-texto);
 }
 

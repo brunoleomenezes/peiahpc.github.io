@@ -14,7 +14,7 @@ window.PEIA_I18N = {
     /* --- Metadados e navegação ------------------------------------------ */
     "meta.titulo.index": "PEIA-HPC · Formação em IA aplicada e computação científica",
     "meta.desc.index":
-      "Formação de 240 horas-aula em Inteligência Artificial Aplicada do Instituto de Inteligência Artificial do LNCC, com prática real no supercomputador Santos Dumont.",
+      "Formação em Inteligência Artificial Aplicada do Instituto de Inteligência Artificial do LNCC, com prática real no supercomputador Santos Dumont.",
     "meta.titulo.ensino": "Área de ensino · PEIA-HPC",
     "meta.desc.ensino":
       "Aulas em vídeo do curso de Inteligência Artificial Aplicada do PEIA-HPC: cinco fases, com notebooks práticos executados no supercomputador SDumont.",
@@ -42,12 +42,10 @@ window.PEIA_I18N = {
     "hero.btn.projeto": "Conhecer o projeto",
     "hero.cred.1": "Instituto de IA do LNCC",
     "hero.cred.2": "SDumont · SINAPAD",
-    "hero.cred.3": "240 horas-aula",
     "hero.legenda":
       "<strong>Asa-Nó</strong>: a asa do 14-Bis de Santos Dumont fundida a uma malha de nós de computação. Um único nó âmbar quebra a simetria e marca o ponto de inovação.",
 
     /* --- Indicadores ----------------------------------------------------- */
-    "ind.1.r": "horas-aula",
     "ind.3.r": "aulas com notebook prático",
     "ind.4.r": "GPUs V100 por nó, em NVLink",
     "ind.5.r": "eficiência de escala em 2 nós",
@@ -71,10 +69,8 @@ window.PEIA_I18N = {
     "curso.selo": "O curso",
     "curso.titulo": "Inteligência Artificial Aplicada",
     "curso.texto":
-      "Formação oferecida pelo Instituto de Inteligência Artificial do LNCC (IA-LNCC), no eixo de Informação e Comunicação. As 240 horas-aula se organizam em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC correspondente.",
+      "Formação oferecida pelo Instituto de Inteligência Artificial do LNCC (IA-LNCC), no eixo de Informação e Comunicação. O percurso se organiza em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC correspondente.",
 
-    "curso.fato.1.r": "Carga horária",
-    "curso.fato.1.v": "240 horas-aula",
 
     "curso.fases.titulo": "As cinco fases",
     "curso.btn.plano": "Ler o plano de ensino integrado",
@@ -239,7 +235,7 @@ window.PEIA_I18N = {
     /* --- Metadata and navigation ----------------------------------------- */
     "meta.titulo.index": "PEIA-HPC · Applied AI and scientific computing education",
     "meta.desc.index":
-      "A 240-hour Applied Artificial Intelligence programme from the LNCC Artificial Intelligence Institute, with real hands-on work on the Santos Dumont supercomputer.",
+      "An Applied Artificial Intelligence programme from the LNCC Artificial Intelligence Institute, with real hands-on work on the Santos Dumont supercomputer.",
     "meta.titulo.ensino": "Learning area · PEIA-HPC",
     "meta.desc.ensino":
       "Video lessons from the PEIA-HPC Applied Artificial Intelligence course: five phases, with hands-on notebooks run on the SDumont supercomputer.",
@@ -267,12 +263,10 @@ window.PEIA_I18N = {
     "hero.btn.projeto": "About the project",
     "hero.cred.1": "LNCC AI Institute",
     "hero.cred.2": "SDumont · SINAPAD",
-    "hero.cred.3": "240 class hours",
     "hero.legenda":
       "<strong>Wing-Node</strong>: the wing of Santos Dumont's 14-Bis fused with a mesh of compute nodes. A single amber node breaks the symmetry and marks the point of innovation.",
 
     /* --- Key figures ----------------------------------------------------- */
-    "ind.1.r": "class hours",
     "ind.3.r": "lessons with a hands-on notebook",
     "ind.4.r": "V100 GPUs per node, on NVLink",
     "ind.5.r": "scaling efficiency across 2 nodes",
@@ -296,10 +290,8 @@ window.PEIA_I18N = {
     "curso.selo": "The course",
     "curso.titulo": "Applied Artificial Intelligence",
     "curso.texto":
-      "A programme offered by the LNCC Artificial Intelligence Institute (IA-LNCC), in the Information and Communication axis. The 240 class hours are organized into five phases, aligning each curriculum topic, week by week, with its corresponding HPC layer.",
+      "A programme offered by the LNCC Artificial Intelligence Institute (IA-LNCC), in the Information and Communication axis. The programme is organized into five phases, aligning each curriculum topic, week by week, with its corresponding HPC layer.",
 
-    "curso.fato.1.r": "Workload",
-    "curso.fato.1.v": "240 class hours",
 
     "curso.fases.titulo": "The five phases",
     "curso.btn.plano": "Read the integrated teaching plan",
