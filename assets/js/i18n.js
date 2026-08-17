@@ -154,7 +154,7 @@ window.PEIA_I18N = {
     "coord.texto":
       "O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica, e é coordenado pelas duas pontas dessa ponte.",
 
-    "coord.b.papel": "Coordenação · FAETEC",
+    "coord.b.papel": "Idealizador · Professor",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
     "coord.b.bio":
       "Professor da FAETEC e idealizador do PEIA-HPC. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.",
@@ -379,7 +379,7 @@ window.PEIA_I18N = {
     "coord.texto":
       "PEIA-HPC grows out of the meeting between the technical-school classroom and scientific computing research, and it is coordinated from both ends of that bridge.",
 
-    "coord.b.papel": "Coordination · FAETEC",
+    "coord.b.papel": "Originator · Teacher",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
     "coord.b.bio":
       "Teacher at FAETEC and originator of PEIA-HPC. Responsible for the project's design, for deploying the computing environment on SDumont and for producing the course's teaching material.",
