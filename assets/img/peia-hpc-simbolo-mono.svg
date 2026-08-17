@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="190 95 675 395" role="img" aria-label="Símbolo PEIA-HPC monocromático">
+  <title>PEIA-HPC — símbolo monocromático</title>
+  <!-- Versão de uma cor (usa currentColor): favicon, gravação a laser, carimbo, 1 tinta -->
+  <g fill="none" stroke="currentColor" stroke-linecap="round" color="#111111">
+    <path d="M210 470 C 360 470, 520 400, 630 270" stroke-width="22"/>
+    <path d="M252 448 C 390 448, 540 382, 636 262" stroke-width="17"/>
+    <path d="M300 432 C 430 432, 560 372, 640 258" stroke-width="13"/>
+    <path d="M356 408 C 470 408, 578 360, 642 255" stroke-width="9"/>
+    <line x1="648" y1="250" x2="660" y2="150" stroke-width="6"/>
+    <line x1="648" y1="250" x2="760" y2="290" stroke-width="6"/>
+    <line x1="648" y1="250" x2="770" y2="185" stroke-width="5"/>
+    <line x1="660" y1="150" x2="770" y2="185" stroke-width="5" stroke-opacity="0.5"/>
+    <line x1="770" y1="185" x2="835" y2="120" stroke-width="6"/>
+  </g>
+  <g fill="currentColor" color="#111111">
+    <circle cx="648" cy="250" r="20"/>
+    <circle cx="660" cy="150" r="15"/>
+    <circle cx="770" cy="185" r="15"/>
+    <circle cx="760" cy="290" r="13"/>
+    <circle cx="835" cy="120" r="18" stroke="currentColor" stroke-width="4" fill="#ffffff"/>
+  </g>
+</svg>

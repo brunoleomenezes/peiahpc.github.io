@@ -1,0 +1,570 @@
+{
+  "config": {
+    "playlistId": "",
+    "canalUrl": "",
+    "repositorio": "https://github.com/brunoleomenezes/peia-hpc",
+    "notebooksBase": "https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks",
+    "planoDeEnsino": {
+      "pt": "https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md",
+      "en": "https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.en.md"
+    }
+  },
+
+  "fases": [
+    {
+      "id": "fase0",
+      "cor": "0",
+      "pt": { "nome": "Fase 0 — Fundamentos e prontidão", "curto": "Fase 0", "semanas": "Semanas 1–4", "marco": "Nível 0", "resumo": "Terminal Linux, acesso remoto por VPN e SSH, e o primeiro job no escalonador de filas." },
+      "en": { "nome": "Phase 0 — Fundamentals and readiness", "curto": "Phase 0", "semanas": "Weeks 1–4", "marco": "Level 0", "resumo": "Linux terminal, remote access over VPN and SSH, and the first job on the queue scheduler." }
+    },
+    {
+      "id": "fase1",
+      "cor": "1",
+      "pt": { "nome": "Fase 1 — Ferramentas como inferência", "curto": "Fase 1", "semanas": "Semanas 5–9", "marco": "Nível 1", "resumo": "Do ChatGPT no navegador ao seu próprio modelo rodando como job na GPU do SDumont." },
+      "en": { "nome": "Phase 1 — Tools as inference", "curto": "Phase 1", "semanas": "Weeks 5–9", "marco": "Level 1", "resumo": "From ChatGPT in the browser to your own model running as a job on an SDumont GPU." }
+    },
+    {
+      "id": "fase2",
+      "cor": "2",
+      "pt": { "nome": "Fase 2 — Geração multimídia e Slurm", "curto": "Fase 2", "semanas": "Semanas 10–14", "marco": "Slurm consolidado", "resumo": "Imagem, vídeo e áudio como inferência; depuração, benchmark de throughput e higiene de cota." },
+      "en": { "nome": "Phase 2 — Multimedia generation and Slurm", "curto": "Phase 2", "semanas": "Weeks 10–14", "marco": "Slurm consolidated", "resumo": "Image, video and audio as inference; debugging, throughput benchmarking and quota hygiene." }
+    },
+    {
+      "id": "fase3",
+      "cor": "3",
+      "pt": { "nome": "Fase 3 — Treino, ajuste fino e escala", "curto": "Fase 3", "semanas": "Semanas 15–18", "marco": "Nível 2", "resumo": "Treinar em vez de só inferir: ajuste fino, escala forte e fraca, e os limites da alocação." },
+      "en": { "nome": "Phase 3 — Training, fine-tuning and scaling", "curto": "Phase 3", "semanas": "Weeks 15–18", "marco": "Level 2", "resumo": "Training rather than only inferring: fine-tuning, strong and weak scaling, and allocation limits." }
+    },
+    {
+      "id": "fase4",
+      "cor": "4",
+      "pt": { "nome": "Fase 4 — Culminância integrada", "curto": "Fase 4", "semanas": "Semanas 19–20", "marco": "Projeto integrado", "resumo": "Documentação reprodutível do experimento e apresentação do projeto final com dados reais medidos." },
+      "en": { "nome": "Phase 4 — Integrated capstone", "curto": "Phase 4", "semanas": "Weeks 19–20", "marco": "Integrated project", "resumo": "Reproducible documentation of the experiment and final project presentation with real measured data." }
+    },
+    {
+      "id": "caso",
+      "cor": "4",
+      "pt": { "nome": "Estudo de caso — Ablação do filtro de variante", "curto": "Estudo de caso", "semanas": "Extensão opcional", "marco": "Opcional", "resumo": "Módulo especial de duas partes, pós-Fase 4, para equipes que chegarem prontas: um experimento real de ponta a ponta." },
+      "en": { "nome": "Case study — Variant filter ablation", "curto": "Case study", "semanas": "Optional extension", "marco": "Optional", "resumo": "An optional two-part module after Phase 4, for teams that arrive ready: a complete end-to-end experiment." }
+    }
+  ],
+
+  "aulas": [
+    {
+      "id": "s01",
+      "fase": "fase0",
+      "rotulo": "01",
+      "youtubeId": "",
+      "notebook": "fase0-fundamentos-prontidao/semana01-terminal-linux.ipynb",
+      "pt": {
+        "semana": "Semana 1",
+        "titulo": "Do componente ao cluster: terminal Linux",
+        "curriculo": "Apresentação do curso; história da IA; o que é Inteligência Artificial e sua importância atual; distinção entre IA, Machine Learning e Deep Learning.",
+        "hpc": "Por que computação importa; o que é um supercomputador; apresentação do SINAPAD, do LNCC e do projeto PEIA-HPC. A ponte com \"Montador e Reparador\": do componente físico ao nó, do nó ao cluster.",
+        "pratica": "Ainda em ambiente local. Terminal Linux — navegação, criação e manipulação de diretórios e arquivos, permissões básicas.",
+        "entregavel": "Roteiro de terminal concluído (montar uma árvore de diretórios, copiar, mover, listar)."
+      },
+      "en": {
+        "semana": "Week 1",
+        "titulo": "From component to cluster: the Linux terminal",
+        "curriculo": "Course presentation; history of AI; what Artificial Intelligence is and its current importance; distinction between AI, Machine Learning and Deep Learning.",
+        "hpc": "Why computing matters; what a supercomputer is; introduction to SINAPAD, LNCC and the PEIA-HPC project. The bridge to \"Computer Assembly and Repair\": from the physical component to the node, from the node to the cluster.",
+        "pratica": "Still in a local environment. Linux terminal — navigation, creation and manipulation of directories and files, basic permissions.",
+        "entregavel": "Completed terminal walkthrough (build a directory tree, copy, move, list)."
+      }
+    },
+    {
+      "id": "s02",
+      "fase": "fase0",
+      "rotulo": "02",
+      "youtubeId": "",
+      "notebook": "fase0-fundamentos-prontidao/semana02-acesso-remoto-vpn-ssh.ipynb",
+      "pt": {
+        "semana": "Semana 2",
+        "titulo": "Anatomia do nó de GPU e acesso remoto (VPN + SSH)",
+        "curriculo": "Conceitos de aprendizado de máquina, redes neurais e algoritmos de IA, em nível conceitual; introdução aos conceitos de prompt e chatbot.",
+        "hpc": "Anatomia de um nó de GPU; o que a GPU faz de diferente da CPU; NVLink como \"os componentes conversando entre si\". Conceito de acesso remoto: o que são SSH e VPN.",
+        "pratica": "Conclusão do terminal (redirecionamento, pipes, edição com nano); preparação da estação — instalação e configuração do cliente VPN, com ajuste de MTU para 1300.",
+        "entregavel": "Estação com VPN configurada e testada; roteiro de terminal finalizado."
+      },
+      "en": {
+        "semana": "Week 2",
+        "titulo": "Anatomy of the GPU node and remote access (VPN + SSH)",
+        "curriculo": "Concepts of machine learning, neural networks and AI algorithms, at a conceptual level; introduction to the concepts of prompt and chatbot.",
+        "hpc": "Anatomy of a GPU node; what the GPU does differently from the CPU; NVLink as \"the components talking to one another\". Concept of remote access: what SSH and VPN are.",
+        "pratica": "Completion of the terminal (redirection, pipes, editing with nano); workstation preparation — installation and configuration of the VPN client, with MTU adjustment to 1300.",
+        "entregavel": "Workstation with VPN configured and tested; terminal walkthrough finished."
+      }
+    },
+    {
+      "id": "s03",
+      "fase": "fase0",
+      "rotulo": "03",
+      "youtubeId": "",
+      "notebook": "fase0-fundamentos-prontidao/semana03-primeiro-login-ssh.ipynb",
+      "pt": {
+        "semana": "Semana 3",
+        "titulo": "Primeiro login no SDumont e o escalonador de filas",
+        "curriculo": "Introdução ao ChatGPT — o que é, pré-requisitos, criação de conta, visão prática, primeiras tarefas de criação de prompts.",
+        "hpc": "O que é um escalonador de filas (a fila do banco como analogia); conceitos de job, partição e recurso; a diferença entre /prj (home, NFS) e /scratch (Lustre).",
+        "pratica": "Primeiro login supervisionado via SSH; exploração do banner, do prompt e do sistema de arquivos; configuração do ~/.ssh/config persistente.",
+        "entregavel": "Sessão SSH bem-sucedida registrada; aluno localiza seu diretório em /scratch/peia-hpc/$USER."
+      },
+      "en": {
+        "semana": "Week 3",
+        "titulo": "First login to SDumont and the queue scheduler",
+        "curriculo": "Introduction to ChatGPT — what it is, prerequisites, account creation, practical overview, first prompt-creation tasks.",
+        "hpc": "What a queue scheduler is (the bank queue as an analogy); concepts of job, partition and resource; the difference between /prj (home, NFS) and /scratch (Lustre).",
+        "pratica": "First supervised login via SSH; exploration of the banner, the prompt and the file system; configuration of a persistent ~/.ssh/config.",
+        "entregavel": "Successful SSH session recorded; student locates their directory at /scratch/peia-hpc/$USER."
+      }
+    },
+    {
+      "id": "s04",
+      "fase": "fase0",
+      "rotulo": "04",
+      "youtubeId": "",
+      "notebook": "fase0-fundamentos-prontidao/semana04-primeiro-job-slurm.ipynb",
+      "pt": {
+        "semana": "Semana 4",
+        "titulo": "Seu primeiro job Slurm com GPU",
+        "curriculo": "Tarefas práticas de criação de prompts; consolidação dos fundamentos.",
+        "hpc": "O primeiro job — a diretiva #SBATCH, os comandos sbatch, squeue e sacct; a disciplina de nunca rodar carga no nó de login, usando o erro documentado no relatório como lição de método.",
+        "pratica": "Submissão do teste-gpu.sh (imprime hostname, nproc, free -g e nvidia-smi dentro de um job); leitura da saída em logs/.",
+        "entregavel": "Primeiro job com estado COMPLETED; arquivo de saída interpretado (identificar o nó alocado e as 4 GPUs V100).",
+        "marco": "Marco: Nível 0 atingido por toda a turma."
+      },
+      "en": {
+        "semana": "Week 4",
+        "titulo": "Your first Slurm GPU job",
+        "curriculo": "Hands-on prompt-creation tasks; consolidation of the fundamentals.",
+        "hpc": "The first job — the #SBATCH directive, the commands sbatch, squeue and sacct; the discipline of never running a workload on the login node, using the error documented in the report as a lesson in method.",
+        "pratica": "Submission of teste-gpu.sh (prints hostname, nproc, free -g and nvidia-smi inside a job); reading the output in logs/.",
+        "entregavel": "First job with COMPLETED state; output file interpreted (identify the allocated node and the 4 V100 GPUs).",
+        "marco": "Milestone: Level 0 reached by the whole class."
+      }
+    },
+    {
+      "id": "s05",
+      "fase": "fase1",
+      "rotulo": "05",
+      "youtubeId": "",
+      "notebook": "fase1-ferramentas-inferencia/semana05-ambiente-venv.ipynb",
+      "pt": {
+        "semana": "Semana 5",
+        "titulo": "Módulos e ambiente virtual Python no cluster",
+        "curriculo": "ChatGPT otimizando tarefas do dia a dia — pesquisas completas, escrita de conteúdos diversos, resumos, traduções, organização de dados.",
+        "hpc": "O conceito de inferência — rodar um modelo já treinado. O que separa \"usar o ChatGPT no navegador\" de \"rodar um modelo você mesmo\".",
+        "pratica": "Módulos de ambiente (module load anaconda3/2024.02_sequana); criação de um venv em /scratch; conceito de ambiente isolado.",
+        "entregavel": "Ambiente venv criado e ativado dentro de um job; python --version confirmando Python 3.11."
+      },
+      "en": {
+        "semana": "Week 5",
+        "titulo": "Environment modules and Python virtual environment",
+        "curriculo": "ChatGPT optimizing everyday tasks — complete research, writing various kinds of content, summaries, translations, data organization.",
+        "hpc": "The concept of inference — running an already-trained model. What separates \"using ChatGPT in the browser\" from \"running a model yourself\".",
+        "pratica": "Environment modules (module load anaconda3/2024.02_sequana); creation of a venv in /scratch; concept of an isolated environment.",
+        "entregavel": "venv environment created and activated inside a job; python --version confirming Python 3.11."
+      }
+    },
+    {
+      "id": "s06",
+      "fase": "fase1",
+      "rotulo": "06",
+      "youtubeId": "",
+      "notebook": "fase1-ferramentas-inferencia/semana06-pytorch-cu126-volta.ipynb",
+      "pt": {
+        "semana": "Semana 6",
+        "titulo": "Instalando PyTorch para as V100 (índice cu126)",
+        "curriculo": "ChatGPT para o dia a dia — resolução de problemas, resumo de vídeos, redação de e-mails, criação de tabelas e planilhas.",
+        "hpc": "Instalação de pacotes; a restrição do índice cu126 (por que as V100, arquitetura Volta sm_70, exigem CUDA 12.6); validação do torch.cuda.",
+        "pratica": "pip install torch --index-url .../cu126 e demais requisitos; submissão do valida-torch.sh; verificação de que torch.cuda.is_available() é verdadeiro e que torch.cuda.get_arch_list() contém sm_70.",
+        "entregavel": "Pilha de software validada; job que imprime a versão do PyTorch, a disponibilidade de CUDA e a lista de arquiteturas."
+      },
+      "en": {
+        "semana": "Week 6",
+        "titulo": "Installing PyTorch for the V100s (cu126 index)",
+        "curriculo": "ChatGPT for everyday use — problem solving, video summarization, email writing, creation of tables and spreadsheets.",
+        "hpc": "Package installation; the constraint of the cu126 index (why the V100s, Volta architecture sm_70, require CUDA 12.6); validation of torch.cuda.",
+        "pratica": "pip install torch --index-url .../cu126 and other requirements; submission of valida-torch.sh; verification that torch.cuda.is_available() is true and that torch.cuda.get_arch_list() contains sm_70.",
+        "entregavel": "Validated software stack; job that prints the PyTorch version, CUDA availability and the architecture list."
+      }
+    },
+    {
+      "id": "s07",
+      "fase": "fase1",
+      "rotulo": "07",
+      "youtubeId": "",
+      "notebook": "fase1-ferramentas-inferencia/semana07-inferencia-llm.ipynb",
+      "pt": {
+        "semana": "Semana 7",
+        "titulo": "Rodando seu próprio LLM em modo inferência",
+        "curriculo": "ChatGPT para negócios, empreendedorismo e empregos — prompts profissionais, produção de currículo, e-mail para potencial empregador.",
+        "hpc": "Rodar um modelo de linguagem aberto e pequeno em modo inferência, como job; leitura do nvidia-smi durante a execução (uso de GPU e de memória).",
+        "pratica": "Job que carrega um modelo pequeno via Transformers e gera texto; comparação da saída com a do ChatGPT no navegador.",
+        "entregavel": "Saída de inferência do cluster acompanhada de comparação escrita com a ferramenta web."
+      },
+      "en": {
+        "semana": "Week 7",
+        "titulo": "Running your own LLM in inference mode",
+        "curriculo": "ChatGPT for business, entrepreneurship and jobs — professional prompts, résumé production, email to a potential employer.",
+        "hpc": "Running a small open language model in inference mode, as a job; reading nvidia-smi during execution (GPU and memory usage).",
+        "pratica": "Job that loads a small model via Transformers and generates text; comparison of the output with that of ChatGPT in the browser.",
+        "entregavel": "Inference output from the cluster accompanied by a written comparison with the web tool."
+      }
+    },
+    {
+      "id": "s08",
+      "fase": "fase1",
+      "rotulo": "08",
+      "youtubeId": "",
+      "notebook": "fase1-ferramentas-inferencia/semana08-cpu-vs-gpu.ipynb",
+      "pt": {
+        "semana": "Semana 8",
+        "titulo": "CPU vs GPU: medindo o custo da inferência",
+        "curriculo": "ChatGPT para produtividade pessoal e profissional — leitura de livros, extração de informações, apoio à tomada de decisão.",
+        "hpc": "Leitura aprofundada do nvidia-smi; o que é VRAM, ocupação e throughput; primeira noção de \"quanto custa\" rodar um modelo.",
+        "pratica": "Medição do tempo de geração com e sem GPU (CPU versus GPU) para o mesmo modelo pequeno.",
+        "entregavel": "Tabela comparativa CPU versus GPU (tempo e itens por segundo)."
+      },
+      "en": {
+        "semana": "Week 8",
+        "titulo": "CPU vs GPU: measuring the cost of inference",
+        "curriculo": "ChatGPT for personal and professional productivity — reading books, extracting information, supporting decision-making.",
+        "hpc": "In-depth reading of nvidia-smi; what VRAM, occupancy and throughput are; a first notion of \"how much it costs\" to run a model.",
+        "pratica": "Measurement of generation time with and without GPU (CPU versus GPU) for the same small model.",
+        "entregavel": "CPU versus GPU comparison table (time and items per second)."
+      }
+    },
+    {
+      "id": "s09",
+      "fase": "fase1",
+      "rotulo": "09",
+      "youtubeId": "",
+      "notebook": "fase1-ferramentas-inferencia/semana09-sbatch-autoral.ipynb",
+      "pt": {
+        "semana": "Semana 9",
+        "titulo": "Escrevendo seu próprio script sbatch",
+        "curriculo": "ChatGPT para criação de conteúdo de marketing — copywriting, artigos, scripts de vídeo, títulos e chamadas.",
+        "hpc": "Consolidação da Fase 1; conceito de reprodutibilidade — por que registrar comandos e versões, à maneira do relatório técnico.",
+        "pratica": "Cada aluno escreve, do zero, um script sbatch próprio para uma tarefa de inferência.",
+        "entregavel": "Script sbatch autoral com sua saída.",
+        "marco": "Marco: Nível 1 atingido pela maioria da turma."
+      },
+      "en": {
+        "semana": "Week 9",
+        "titulo": "Writing your own sbatch script",
+        "curriculo": "ChatGPT for marketing content creation — copywriting, articles, video scripts, headlines and calls to action.",
+        "hpc": "Consolidation of Phase 1; concept of reproducibility — why to record commands and versions, in the manner of the technical report.",
+        "pratica": "Each student writes, from scratch, their own sbatch script for an inference task.",
+        "entregavel": "Original sbatch script with its output.",
+        "marco": "Milestone: Level 1 reached by most of the class."
+      }
+    },
+    {
+      "id": "s10",
+      "fase": "fase2",
+      "rotulo": "10",
+      "youtubeId": "",
+      "notebook": "fase2-geracao-multimidia-slurm/semana10-geracao-imagem-difusao.ipynb",
+      "pt": {
+        "semana": "Semana 10",
+        "titulo": "Geração de imagem como inferência (difusão)",
+        "curriculo": "Geração de textos e apresentações; geração de imagens (abordagem das principais ferramentas).",
+        "hpc": "Geração de imagem é inferência de um modelo de difusão; rodar um modelo de imagem como job em lote.",
+        "pratica": "Job de geração de imagem no cluster; artefatos salvos em /scratch, resultado final movido para /prj.",
+        "entregavel": "Imagem gerada no cluster e o script correspondente; distinção /scratch versus /prj aplicada na prática."
+      },
+      "en": {
+        "semana": "Week 10",
+        "titulo": "Image generation as inference (diffusion)",
+        "curriculo": "Generation of texts and presentations; image generation (overview of the main tools).",
+        "hpc": "Image generation is inference of a diffusion model; running an image model as a batch job.",
+        "pratica": "Image-generation job on the cluster; artifacts saved in /scratch, final result moved to /prj.",
+        "entregavel": "Image generated on the cluster and the corresponding script; /scratch versus /prj distinction applied in practice."
+      }
+    },
+    {
+      "id": "s11",
+      "fase": "fase2",
+      "rotulo": "11",
+      "youtubeId": "",
+      "notebook": "fase2-geracao-multimidia-slurm/semana11-depuracao-jobs.ipynb",
+      "pt": {
+        "semana": "Semana 11",
+        "titulo": "Depurando jobs: erro → diagnóstico → correção",
+        "curriculo": "Geração de vídeos; geração de conteúdo para redes sociais.",
+        "hpc": "Pipelines mais pesados; leitura de logs de erro e depuração (arquivo não encontrado, propagação de metadados em NFS — lições do relatório).",
+        "pratica": "Depuração guiada de um job que falha de propósito (caminho incorreto, módulo ausente); diagnóstico e correção.",
+        "entregavel": "Relato curto de depuração no formato erro → diagnóstico → correção, no estilo do relatório técnico."
+      },
+      "en": {
+        "semana": "Week 11",
+        "titulo": "Debugging jobs: error → diagnosis → fix",
+        "curriculo": "Video generation; content generation for social media.",
+        "hpc": "Heavier pipelines; reading error logs and debugging (file not found, metadata propagation on NFS — lessons from the report).",
+        "pratica": "Guided debugging of a job that fails on purpose (incorrect path, missing module); diagnosis and correction.",
+        "entregavel": "Short debugging report in the format error → diagnosis → correction, in the style of the technical report."
+      }
+    },
+    {
+      "id": "s12",
+      "fase": "fase2",
+      "rotulo": "12",
+      "youtubeId": "",
+      "notebook": "fase2-geracao-multimidia-slurm/semana12-benchmark-throughput.ipynb",
+      "pt": {
+        "semana": "Semana 12",
+        "titulo": "Benchmark de throughput: warmup e sincronização",
+        "curriculo": "Geração de narração e dublagem; conversor de áudio e texto.",
+        "hpc": "Modelos de áudio como inferência; o conceito de benchmark de throughput — o que significa medir itens ou tokens por segundo, com aquecimento (warmup) e sincronização de CUDA.",
+        "pratica": "Execução de um benchmark e coleta de throughput de um modelo, com passos de aquecimento antes da medição.",
+        "entregavel": "Primeiro benchmark de throughput autoral, com metodologia descrita (warmup e medição)."
+      },
+      "en": {
+        "semana": "Week 12",
+        "titulo": "Throughput benchmark: warmup and synchronization",
+        "curriculo": "Narration and dubbing generation; audio-to-text and text-to-audio converter.",
+        "hpc": "Audio models as inference; the concept of a throughput benchmark — what it means to measure items or tokens per second, with warmup and CUDA synchronization.",
+        "pratica": "Running a benchmark and collecting a model's throughput, with warmup steps before the measurement.",
+        "entregavel": "First original throughput benchmark, with methodology described (warmup and measurement)."
+      }
+    },
+    {
+      "id": "s13",
+      "fase": "fase2",
+      "rotulo": "13",
+      "youtubeId": "",
+      "notebook": "fase2-geracao-multimidia-slurm/semana13-dimensionamento-cota.ipynb",
+      "pt": {
+        "semana": "Semana 13",
+        "titulo": "Higiene de cota e dimensionamento em horas de GPU",
+        "curriculo": "Criação de sites; gerador de animações; automações diversas.",
+        "hpc": "Eficiência e higiene de cota — por que solicitar sempre --gres=gpu:4 (a cobrança é por nó cheio, billing=48); por que nunca usar o nó de login.",
+        "pratica": "Exercício de dimensionamento — estimar as horas de GPU necessárias para uma tarefa a partir do throughput medido.",
+        "entregavel": "Estimativa de custo em horas de GPU, com a base de cálculo explicitada."
+      },
+      "en": {
+        "semana": "Week 13",
+        "titulo": "Quota hygiene and sizing in GPU-hours",
+        "curriculo": "Site creation; animation generator; various automations.",
+        "hpc": "Efficiency and quota hygiene — why to always request --gres=gpu:4 (billing is per full node, billing=48); why never to use the login node.",
+        "pratica": "Sizing exercise — estimate the GPU hours needed for a task from the measured throughput.",
+        "entregavel": "Cost estimate in GPU hours, with the calculation basis made explicit."
+      }
+    },
+    {
+      "id": "s14",
+      "fase": "fase2",
+      "rotulo": "14",
+      "youtubeId": "",
+      "notebook": "fase2-geracao-multimidia-slurm/semana14-miniprojeto-pipeline.ipynb",
+      "pt": {
+        "semana": "Semana 14",
+        "titulo": "Mini-projeto: um pipeline de inferência completo",
+        "curriculo": "Criação de aplicativos; designer e marketing (fechamento do bloco de ferramentas).",
+        "hpc": "Consolidação do Slurm; revisão para a avaliação teórica de conceitos de HPC.",
+        "pratica": "Mini-projeto de meio de curso — um pipeline de inferência completo, submetido e documentado.",
+        "entregavel": "Mini-projeto documentado.",
+        "marco": "Marco: Slurm consolidado."
+      },
+      "en": {
+        "semana": "Week 14",
+        "titulo": "Mini-project: a complete inference pipeline",
+        "curriculo": "Application creation; design and marketing (closing of the tools block).",
+        "hpc": "Slurm consolidation; review for the theoretical assessment of HPC concepts.",
+        "pratica": "Mid-course mini-project — a complete inference pipeline, submitted and documented.",
+        "entregavel": "Documented mini-project.",
+        "marco": "Milestone: Slurm consolidated."
+      }
+    },
+    {
+      "id": "s15",
+      "fase": "fase3",
+      "rotulo": "15",
+      "youtubeId": "",
+      "notebook": "fase3-treino-ajuste-escala/semana15-treino-no-unico.ipynb",
+      "pt": {
+        "semana": "Semana 15",
+        "titulo": "Treinar vs inferir: bench-train em 1 nó (4 GPUs)",
+        "curriculo": "Solidificação dos conhecimentos em geral; revisão de todos os itens.",
+        "hpc": "O que é treinar um modelo, em contraste com inferir; a noção de custo computacional (aproximadamente 6ND); por que o treino é caro. Dados sintéticos versus dados reais.",
+        "pratica": "Execução do bench-train.py em 1 nó com 4 GPUs; observação do throughput (da ordem de 40.967 tokens/s no experimento de referência) e do pico de VRAM (18 GB de 32 GB).",
+        "entregavel": "Resultado do treino em nó único, interpretado."
+      },
+      "en": {
+        "semana": "Week 15",
+        "titulo": "Train vs infer: bench-train on 1 node (4 GPUs)",
+        "curriculo": "General solidification of knowledge; review of all items.",
+        "hpc": "What it means to train a model, in contrast to inferring; the notion of computational cost (approximately 6ND); why training is expensive. Synthetic data versus real data.",
+        "pratica": "Running bench-train.py on 1 node with 4 GPUs; observing the throughput (on the order of 40,967 tokens/s in the reference experiment) and the VRAM peak (18 GB of 32 GB).",
+        "entregavel": "Single-node training result, interpreted."
+      }
+    },
+    {
+      "id": "s16",
+      "fase": "fase3",
+      "rotulo": "16",
+      "youtubeId": "",
+      "notebook": "fase3-treino-ajuste-escala/semana16-ajuste-fino.ipynb",
+      "pt": {
+        "semana": "Semana 16",
+        "titulo": "Ajuste fino de um modelo pré-treinado",
+        "curriculo": "Planejamento do projeto de término do curso; descrição do escopo do projeto.",
+        "hpc": "Ajuste fino — adaptar um modelo pré-treinado a dados próprios; a diferença entre treinar do zero e fazer fine-tuning.",
+        "pratica": "Ajuste fino de um modelo pequeno com um conjunto de dados pequeno da própria equipe.",
+        "entregavel": "Modelo ajustado e comparação qualitativa antes/depois."
+      },
+      "en": {
+        "semana": "Week 16",
+        "titulo": "Fine-tuning a pre-trained model",
+        "curriculo": "Planning of the course's final project; description of the project scope.",
+        "hpc": "Fine-tuning — adapting a pre-trained model to one's own data; the difference between training from scratch and fine-tuning.",
+        "pratica": "Fine-tuning of a small model with a small dataset from the team itself.",
+        "entregavel": "Fine-tuned model and a qualitative before/after comparison."
+      }
+    },
+    {
+      "id": "s17",
+      "fase": "fase3",
+      "rotulo": "17",
+      "youtubeId": "",
+      "notebook": "fase3-treino-ajuste-escala/semana17-escala-distribuida.ipynb",
+      "pt": {
+        "semana": "Semana 17",
+        "titulo": "Escala forte e fraca: benchmark em 2 nós",
+        "curriculo": "Execução do projeto final (início).",
+        "hpc": "Paralelismo e escala — escala forte versus escala fraca; execução do benchmark em 2 nós; cálculo da eficiência de escala (94% no experimento de referência) e a constatação de que a InfiniBand não é gargalo nessa escala.",
+        "pratica": "Benchmark comparando 1 nó e 2 nós; cálculo da eficiência de escala.",
+        "entregavel": "Tabela de escala com a eficiência calculada, no formato do relatório técnico."
+      },
+      "en": {
+        "semana": "Week 17",
+        "titulo": "Strong and weak scaling: benchmark on 2 nodes",
+        "curriculo": "Execution of the final project (start).",
+        "hpc": "Parallelism and scaling — strong scaling versus weak scaling; running the benchmark on 2 nodes; computing the scaling efficiency (94% in the reference experiment) and the finding that InfiniBand is not a bottleneck at this scale.",
+        "pratica": "Benchmark comparing 1 node and 2 nodes; computing the scaling efficiency.",
+        "entregavel": "Scaling table with the computed efficiency, in the format of the technical report."
+      }
+    },
+    {
+      "id": "s18",
+      "fase": "fase3",
+      "rotulo": "18",
+      "youtubeId": "",
+      "notebook": "fase3-treino-ajuste-escala/semana18-limites-alocacao.ipynb",
+      "pt": {
+        "semana": "Semana 18",
+        "titulo": "Limites da alocação, ZeRO/FSDP e cota",
+        "curriculo": "Execução do projeto final (continuação).",
+        "hpc": "Os limites da alocação educacional (walltime de 20 minutos, MaxSubmit=1) e suas implicações para o projeto; quando solicitar aumento de cota; por que o DDP puro deixa de caber em 32 GB acima de cerca de 1 bilhão de parâmetros, exigindo ZeRO ou FSDP.",
+        "pratica": "Integração do componente de HPC ao projeto de cada equipe.",
+        "entregavel": "Componente de HPC do projeto em funcionamento.",
+        "marco": "Marco: Nível 2 atingido pelas equipes preparadas."
+      },
+      "en": {
+        "semana": "Week 18",
+        "titulo": "Allocation limits, ZeRO/FSDP and quota",
+        "curriculo": "Execution of the final project (continuation).",
+        "hpc": "The limits of the educational allocation (20-minute walltime, MaxSubmit=1) and their implications for the project; when to request a quota increase; why pure DDP stops fitting in 32 GB above about 1 billion parameters, requiring ZeRO or FSDP.",
+        "pratica": "Integration of the HPC component into each team's project.",
+        "entregavel": "The project's HPC component up and running.",
+        "marco": "Milestone: Level 2 reached by the prepared teams."
+      }
+    },
+    {
+      "id": "s19",
+      "fase": "fase4",
+      "rotulo": "19",
+      "youtubeId": "",
+      "notebook": "fase4-culminancia/semana19-documentacao-experimento.ipynb",
+      "pt": {
+        "semana": "Semana 19",
+        "titulo": "Documentando o experimento com reprodutibilidade",
+        "curriculo": "Execução do Projeto Final; preparação da apresentação.",
+        "hpc": "Documentação do experimento no estilo do relatório técnico — comandos, saídas, medições e o que falhou.",
+        "pratica": "Finalização do experimento; redação da documentação do componente de HPC.",
+        "entregavel": "Projeto final completo, com documentação de HPC (job submetido, medição realizada e análise)."
+      },
+      "en": {
+        "semana": "Week 19",
+        "titulo": "Documenting the experiment with reproducibility",
+        "curriculo": "Execution of the Final Project; preparation of the presentation.",
+        "hpc": "Documentation of the experiment in the style of the technical report — commands, outputs, measurements and what failed.",
+        "pratica": "Finalization of the experiment; writing the documentation of the HPC component.",
+        "entregavel": "Complete final project, with HPC documentation (job submitted, measurement performed and analysis)."
+      }
+    },
+    {
+      "id": "s20",
+      "fase": "fase4",
+      "rotulo": "20",
+      "youtubeId": "",
+      "notebook": "fase4-culminancia/semana20-apresentacao-projeto.ipynb",
+      "pt": {
+        "semana": "Semana 20",
+        "titulo": "Apresentação do projeto final integrado",
+        "curriculo": "Apresentação do Projeto Final.",
+        "hpc": "A apresentação inclui os dados de desempenho reais medidos pela equipe.",
+        "pratica": "Apresentações; avaliação em Conselho de Classe dos aspectos formativos.",
+        "entregavel": "Apresentação realizada; nota final integrada consolidada; o material produzido passa a compor o repositório do projeto.",
+        "marco": "Marco: projeto integrado concluído."
+      },
+      "en": {
+        "semana": "Week 20",
+        "titulo": "Presenting the integrated final project",
+        "curriculo": "Presentation of the Final Project.",
+        "hpc": "The presentation includes the real performance data measured by the team.",
+        "pratica": "Presentations; assessment in the class council of the formative aspects.",
+        "entregavel": "Presentation delivered; consolidated integrated final grade; the material produced becomes part of the project repository.",
+        "marco": "Milestone: integrated project completed."
+      }
+    },
+    {
+      "id": "c01",
+      "fase": "caso",
+      "rotulo": "C1",
+      "youtubeId": "",
+      "notebook": "estudo-de-caso-ablacao/caso01-filtro-de-variante.ipynb",
+      "pt": {
+        "semana": "Caso 01",
+        "titulo": "O filtro de variante: um bug de substring que reescreve o corpus",
+        "curriculo": "Execução e documentação do Projeto Final; leitura crítica de resultados de IA — o que um número diz e o que ele não diz.",
+        "hpc": "Curadoria de corpus para pré-treino; o Estágio 2 (filtro de variante PT-BR/PT-PT) e a diferença entre casamento por substring e por fronteira de palavra; desenho de uma ablação de fator único; orçamento igual de tokens; descontaminação por 13-gramas contra ENEM, BLUEX, OAB e ASSIN2.",
+        "pratica": "Clonar o experimento no /scratch, reproduzir a divergência entre os dois classificadores no nó de login, construir um pool piloto e medir a taxa de retenção em um job de CPU na sequana_cpu_dev.",
+        "entregavel": "Tabela de divergência (legado × corrigido) e tabela de retenção do pool piloto, com a interpretação do que o filtro realmente separa — registro formal, não variante linguística."
+      },
+      "en": {
+        "semana": "Case 01",
+        "titulo": "The variant filter: a substring bug that rewrites the corpus",
+        "curriculo": "Execution and documentation of the Final Project; critical reading of AI results — what a number says and what it does not say.",
+        "hpc": "Corpus curation for pre-training; Stage 2 (the PT-BR/PT-PT variant filter) and the difference between substring and word-boundary matching; the design of a single-factor ablation; the equal token budget; 13-gram decontamination against ENEM, BLUEX, OAB and ASSIN2.",
+        "pratica": "Clone the experiment onto /scratch, reproduce the divergence between the two classifiers on the login node, build a pilot pool and measure the retention rate in a CPU job on sequana_cpu_dev.",
+        "entregavel": "Divergence table (legacy × fixed) and retention table for the pilot pool, with an interpretation of what the filter actually separates — formal register, not linguistic variant."
+      }
+    },
+    {
+      "id": "c02",
+      "fase": "caso",
+      "rotulo": "C2",
+      "youtubeId": "",
+      "notebook": "estudo-de-caso-ablacao/caso02-treino-e-avaliacao.ipynb",
+      "pt": {
+        "semana": "Caso 02",
+        "titulo": "Treinar os três braços em janelas de 20 minutos e ler o resultado",
+        "curriculo": "Execução, documentação e apresentação do Projeto Final; honestidade metodológica ao relatar resultados.",
+        "hpc": "Pré-treino do zero de três modelos de ~153 M de parâmetros com retomada por checkpoint em janelas de 20 minutos; a cadeia manual imposta por MaxJobs=1/MaxSubmit=1; avaliação offline; leitura de relatório comparativo com intervalo de confiança bootstrap, teste pareado de McNemar e linha do acaso.",
+        "pratica": "Submeter os três braços um a um na sequana_gpu_dev com --gres=gpu:4, ler status.json, retomar dentro de um screen no nó de login, avaliar e gerar o relatório comparativo.",
+        "entregavel": "Tabela comparativa dos três braços (perplexidade nos conjuntos retidos e acurácia nos benchmarks) com a linha do acaso marcada, e uma conclusão que declara o que os dados sustentam e o que não sustentam."
+      },
+      "en": {
+        "semana": "Case 02",
+        "titulo": "Training the three arms in 20-minute windows and reading the result",
+        "curriculo": "Execution, documentation and presentation of the Final Project; methodological honesty when reporting results.",
+        "hpc": "Pre-training three ~153 M-parameter models from scratch with checkpoint resume in 20-minute windows; the manual chain imposed by MaxJobs=1/MaxSubmit=1; offline evaluation; reading a comparison report with bootstrap confidence intervals, McNemar's paired test and the chance line.",
+        "pratica": "Submit the three arms one at a time on sequana_gpu_dev with --gres=gpu:4, read status.json, resume inside a screen on the login node, evaluate and generate the comparison report.",
+        "entregavel": "Comparison table of the three arms (held-out perplexity and benchmark accuracy) with the chance line marked, and a conclusion that states what the data support and what they do not."
+      }
+    }
+  ]
+}

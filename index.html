@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PEIA-HPC — Formação em IA aplicada e computação científica</title>
+<meta name="description" data-i18n-content="meta.desc.index" content="O PEIA-HPC leva o supercomputador Santos Dumont para a sala de aula do ensino técnico. Curso de 240 horas-aula em Inteligência Artificial Aplicada, FAETEC Resende, com prática real em HPC.">
+<meta name="author" content="Bruno Leonardo Santos Menezes">
+<meta name="theme-color" content="#071d2f">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<link rel="canonical" href="https://peiahpc.github.io/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PEIA-HPC">
+<meta property="og:title" content="PEIA-HPC — o supercomputador entra na sala de aula">
+<meta property="og:description" content="Formação Nacional em Inteligência Artificial Aplicada e Computação Científica utilizando a infraestrutura HPC do SINAPAD. FAETEC Resende · Supercomputador SDumont, LNCC/MCTI.">
+<meta property="og:url" content="https://peiahpc.github.io/">
+<meta property="og:image" content="https://peiahpc.github.io/assets/img/peia-hpc-logo.svg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;750&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/estilo.css">
+<noscript><style>.revelar{opacity:1;transform:none}</style></noscript>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Inteligência Artificial Aplicada — PEIA-HPC",
+  "description": "Curso de Qualificação Profissional em Inteligência Artificial Aplicada, com camada de Computação de Alto Desempenho executada no Supercomputador Santos Dumont (LNCC/MCTI).",
+  "inLanguage": ["pt-BR", "en"],
+  "url": "https://peiahpc.github.io/",
+  "provider": {
+    "@type": "EducationalOrganization",
+    "name": "FAETEC — Fundação de Apoio à Escola Técnica do Estado do Rio de Janeiro, Unidade Resende"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Bruno Leonardo Santos Menezes",
+    "url": "https://brunoleomenezes.github.io/",
+    "identifier": "https://orcid.org/0000-0001-6249-2395"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://www.apache.org/licenses/LICENSE-2.0"
+}
+</script>
+</head>
+
+<body data-i18n-titulo="meta.titulo.index">
+
+<a class="pular-para-conteudo" href="#conteudo" data-i18n="pular">Pular para o conteúdo</a>
+
+<!-- ====================================================== Cabeçalho ==== -->
+<header class="cabecalho" data-cabecalho>
+  <div class="envoltorio cabecalho__interno">
+
+    <a class="marca" href="index.html" aria-label="PEIA-HPC">
+      <span class="marca__simbolo" aria-hidden="true">
+        <svg viewBox="0 0 64 64">
+          <rect width="64" height="64" rx="14" fill="#0A2A43"/>
+          <g fill="none" stroke-linecap="round">
+            <path d="M12 47 C 25 47, 37 40, 44 27" stroke="#0072B2" stroke-width="7"/>
+            <path d="M18 44 C 29 44, 39 38, 45 26" stroke="#5AA3D0" stroke-width="4.5"/>
+          </g>
+          <line x1="45" y1="25" x2="52" y2="15" stroke="#E69F00" stroke-width="3.4" stroke-linecap="round"/>
+          <circle cx="45" cy="25" r="5" fill="#009E73"/>
+          <circle cx="52" cy="15" r="5.6" fill="#E69F00"/>
+        </svg>
+      </span>
+      <span class="marca__texto">
+        <span class="marca__nome">PEIA-HPC</span>
+        <span class="marca__descritor" data-i18n="marca.descritor">IA aplicada · Computação científica</span>
+      </span>
+    </a>
+
+    <button class="botao-icone abrir-menu" type="button" data-abrir-menu aria-expanded="false" aria-controls="navegacao" data-i18n-aria-label="nav.abrirMenu" aria-label="Abrir menu de navegação">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+
+    <nav class="nav" id="navegacao" data-nav>
+      <a class="nav__link" href="#projeto" data-i18n="nav.projeto">O projeto</a>
+      <a class="nav__link" href="#curso" data-i18n="nav.curso">O curso</a>
+      <a class="nav__link" href="#infraestrutura" data-i18n="nav.infra">Infraestrutura</a>
+      <a class="nav__link" href="ensino.html" data-i18n="nav.ensino">Área de ensino</a>
+      <a class="nav__link" href="#professor" data-i18n="nav.professor">Professor</a>
+
+      <div class="ferramentas">
+        <div class="seletor-idioma" role="group" data-i18n-aria-label="nav.idioma" aria-label="Idioma">
+          <button class="seletor-idioma__opcao" type="button" data-idioma="pt" aria-pressed="true">PT</button>
+          <button class="seletor-idioma__opcao" type="button" data-idioma="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="botao-icone" type="button" data-alternar-tema aria-pressed="false" data-i18n-aria-label="nav.tema" aria-label="Alternar tema claro e escuro">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- ============================================================ Hero ==== -->
+<section class="hero">
+
+  <svg class="hero__malha" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <pattern id="malha-hpc" width="72" height="72" patternUnits="userSpaceOnUse">
+        <path d="M72 0H0V72" fill="none" stroke="rgba(143,192,224,0.16)" stroke-width="1"/>
+        <circle cx="0" cy="0" r="1.8" fill="rgba(102,194,169,0.4)"/>
+      </pattern>
+    </defs>
+    <rect width="1440" height="760" fill="url(#malha-hpc)"/>
+    <g stroke="rgba(143,192,224,0.2)" stroke-width="1.2" fill="none">
+      <path d="M120 640 L 300 520 L 520 570 L 700 430 L 900 480 L 1120 340 L 1320 400"/>
+      <path d="M180 200 L 380 300 L 560 210 L 780 320 L 1010 230 L 1240 300"/>
+    </g>
+    <g fill="rgba(102,194,169,0.5)">
+      <circle cx="300" cy="520" r="3.5"/><circle cx="700" cy="430" r="3.5"/>
+      <circle cx="1120" cy="340" r="3.5"/><circle cx="380" cy="300" r="3"/>
+      <circle cx="780" cy="320" r="3"/><circle cx="1010" cy="230" r="3"/>
+    </g>
+    <circle cx="1240" cy="300" r="5" fill="rgba(230,159,0,0.65)"/>
+  </svg>
+
+  <div class="envoltorio hero__grade">
+
+    <div>
+      <p class="hero__selo">
+        <strong data-i18n="hero.selo.marca">SINAPAD 249134</strong>
+        <span data-i18n="hero.selo.texto">Supercomputador Santos Dumont · LNCC/MCTI</span>
+      </p>
+
+      <h1 class="hero__titulo" data-i18n-html="hero.titulo">O supercomputador entra na <em>sala de aula</em></h1>
+
+      <p class="hero__subtitulo" data-i18n="hero.sub">O PEIA-HPC leva a infraestrutura nacional de computação de alto desempenho para o ensino técnico. O aluno não só usa ferramentas de IA — ele submete jobs, mede desempenho real de GPU e entende o que acontece por baixo do capô.</p>
+
+      <div class="grupo-botoes hero__acoes">
+        <a class="botao botao--acento" href="ensino.html">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 001.54.84l10.28-6.86a1 1 0 000-1.68L9.54 4.3A1 1 0 008 5.14z"/></svg>
+          <span data-i18n="hero.btn.aulas">Entrar na área de ensino</span>
+        </a>
+        <a class="botao botao--fantasma-claro" href="#projeto" data-i18n="hero.btn.projeto">Conhecer o projeto</a>
+      </div>
+
+      <p class="hero__creditos">
+        <span data-i18n="hero.cred.1">FAETEC · Unidade Resende</span>
+        <span data-i18n="hero.cred.2">LNCC / SINAPAD</span>
+        <span data-i18n="hero.cred.3">240 h/a · 20 semanas</span>
+      </p>
+    </div>
+
+    <div class="hero__painel">
+      <svg class="hero__simbolo" viewBox="190 95 675 395" role="img" aria-label="Símbolo PEIA-HPC: asa ascendente e grafo de nós">
+        <title>PEIA-HPC — símbolo Asa-Nó</title>
+        <g fill="none" stroke-linecap="round">
+          <path class="asa-traco" d="M210 470 C 360 470, 520 400, 630 270" stroke="#0072B2" stroke-width="22"/>
+          <path class="asa-traco" d="M252 448 C 390 448, 540 382, 636 262" stroke="#2C86C0" stroke-width="17"/>
+          <path class="asa-traco" d="M300 432 C 430 432, 560 372, 640 258" stroke="#5AA3D0" stroke-width="13"/>
+          <path class="asa-traco" d="M356 408 C 470 408, 578 360, 642 255" stroke="#8FC0E0" stroke-width="9"/>
+        </g>
+        <g fill="none" stroke-linecap="round">
+          <line class="grafo-aresta" x1="648" y1="250" x2="660" y2="150" stroke="#009E73" stroke-width="6"/>
+          <line class="grafo-aresta" x1="648" y1="250" x2="760" y2="290" stroke="#009E73" stroke-width="6"/>
+          <line class="grafo-aresta" x1="648" y1="250" x2="770" y2="185" stroke="#009E73" stroke-width="5"/>
+          <line class="grafo-aresta" x1="660" y1="150" x2="770" y2="185" stroke="#66C2A9" stroke-width="5"/>
+          <line class="grafo-aresta" x1="770" y1="185" x2="835" y2="120" stroke="#E69F00" stroke-width="6"/>
+        </g>
+        <g>
+          <circle class="grafo-no" cx="648" cy="250" r="20" fill="#0072B2"/>
+          <circle class="grafo-no" cx="660" cy="150" r="15" fill="#009E73"/>
+          <circle class="grafo-no" cx="770" cy="185" r="15" fill="#009E73"/>
+          <circle class="grafo-no" cx="760" cy="290" r="13" fill="#009E73"/>
+          <circle class="grafo-no grafo-no--acento" cx="835" cy="120" r="18" fill="#E69F00"/>
+        </g>
+      </svg>
+      <p class="hero__legenda" data-i18n-html="hero.legenda"><strong>Asa-Nó</strong> — a asa do 14-Bis de Santos Dumont fundida a uma malha de nós de computação. Um único nó âmbar quebra a simetria: o ponto de inovação.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================================================== Indicadores ==== -->
+<section class="secao" style="padding-block: clamp(2rem, 4vw, 3rem);">
+  <div class="envoltorio">
+    <div class="indicadores revelar">
+      <div class="indicador">
+        <span class="indicador__valor">240</span>
+        <span class="indicador__rotulo" data-i18n="ind.1.r">horas-aula presenciais</span>
+      </div>
+      <div class="indicador">
+        <span class="indicador__valor">20</span>
+        <span class="indicador__rotulo" data-i18n="ind.2.r">semanas em cinco fases</span>
+      </div>
+      <div class="indicador">
+        <span class="indicador__valor">22</span>
+        <span class="indicador__rotulo" data-i18n="ind.3.r">aulas com notebook prático</span>
+      </div>
+      <div class="indicador">
+        <span class="indicador__valor">4×V100</span>
+        <span class="indicador__rotulo" data-i18n="ind.4.r">GPUs V100 por nó, em NVLink</span>
+      </div>
+      <div class="indicador">
+        <span class="indicador__valor">94%</span>
+        <span class="indicador__rotulo" data-i18n="ind.5.r">eficiência de escala em 2 nós</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================= O projeto ==== -->
+<section class="secao secao--alt" id="projeto">
+  <div class="envoltorio">
+
+    <div class="secao__cabecalho revelar">
+      <p class="selo" data-i18n="projeto.selo">O projeto</p>
+      <h2 data-i18n="projeto.titulo">Verticalizar, não acrescentar</h2>
+      <p class="texto-guia" data-i18n="projeto.texto">A formação em IA no ensino técnico brasileiro costuma parar no uso de ferramentas prontas. Aqui, cada tópico do currículo aponta para um modelo de IA — e o percurso desce em profundidade sobre o mesmo objeto, até o aluno rodar, medir e ajustar esse modelo em um supercomputador nacional.</p>
+    </div>
+
+    <div class="grade grade--3">
+
+      <article class="cartao cartao--interativo revelar">
+        <div class="cartao__icone" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M12 21l-5-4M12 21l5-4M5 7h14M7 12h10"/></svg>
+        </div>
+        <h3 data-i18n="projeto.c1.t">O mesmo objeto, duas profundidades</h3>
+        <p data-i18n="projeto.c1.p">A camada de HPC não é matéria nova no fim do curso. É o "por baixo do capô" de tudo que a turma já usa desde a primeira semana.</p>
+      </article>
+
+      <article class="cartao cartao--interativo revelar">
+        <div class="cartao__icone cartao__icone--teal" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/></svg>
+        </div>
+        <h3 data-i18n="projeto.c2.t">Infraestrutura nacional de verdade</h3>
+        <p data-i18n="projeto.c2.p">As práticas rodam no Santos Dumont, o supercomputador Tier-0 do SINAPAD, no LNCC. Nada de simulador.</p>
+      </article>
+
+      <article class="cartao cartao--interativo revelar">
+        <div class="cartao__icone cartao__icone--ambar" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-4"/><path d="M14 3h7v7M21 3l-9 9"/></svg>
+        </div>
+        <h3 data-i18n="projeto.c3.t">Aberto, auditável, reprodutível</h3>
+        <p data-i18n="projeto.c3.p">Todo o material é público sob Apache 2.0. O registro dos erros tem valor didático equivalente ao dos acertos.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================= O curso ==== -->
+<section class="secao" id="curso">
+  <div class="envoltorio">
+
+    <div class="secao__cabecalho revelar">
+      <p class="selo" data-i18n="curso.selo">O curso</p>
+      <h2 data-i18n="curso.titulo">Inteligência Artificial Aplicada</h2>
+      <p class="texto-guia" data-i18n="curso.texto">Qualificação profissional ofertada pela FAETEC, Unidade Resende, no eixo de Informação e Comunicação. As 240 horas-aula se organizam em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC correspondente.</p>
+    </div>
+
+    <div class="tabela-rolagem revelar" style="margin-bottom: clamp(2.5rem, 5vw, 3.5rem);">
+      <table>
+        <tbody>
+          <tr><td data-i18n="curso.fato.1.r">Carga horária</td><td data-i18n="curso.fato.1.v">240 horas-aula</td></tr>
+          <tr><td data-i18n="curso.fato.2.r">Duração</td><td data-i18n="curso.fato.2.v">20 semanas · 12 h/a por semana, em três encontros</td></tr>
+          <tr><td data-i18n="curso.fato.3.r">Modalidade</td><td data-i18n="curso.fato.3.v">Presencial · 40% teórica, 60% prática</td></tr>
+          <tr><td data-i18n="curso.fato.4.r">Vagas</td><td data-i18n="curso.fato.4.v">20, com mínimo de 10</td></tr>
+          <tr><td data-i18n="curso.fato.5.r">Pré-requisitos</td><td data-i18n="curso.fato.5.v">Idade mínima de 16 anos e Ensino Fundamental II completo</td></tr>
+          <tr><td data-i18n="curso.fato.6.r">Certificação</td><td data-i18n="curso.fato.6.v">Certificado de Qualificação Profissional emitido pela FAETEC</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="revelar" style="margin-bottom: 1.25rem;" data-i18n="curso.fases.titulo">As cinco fases</h3>
+
+    <div class="fases">
+
+      <article class="fase fase--0 revelar">
+        <div class="fase__numero" aria-hidden="true">0</div>
+        <div class="fase__corpo">
+          <h3 data-i18n="fase.0.t">Fundamentos e prontidão</h3>
+          <p data-i18n="fase.0.p">Terminal Linux, acesso remoto por VPN e SSH, e o primeiro job no escalonador de filas.</p>
+        </div>
+        <div class="fase__meta">
+          <span class="fase__semanas" data-i18n="fase.0.s">Semanas 1–4</span>
+          <span class="fase__marco" data-i18n="fase.0.m">Nível 0</span>
+        </div>
+      </article>
+
+      <article class="fase fase--1 revelar">
+        <div class="fase__numero" aria-hidden="true">1</div>
+        <div class="fase__corpo">
+          <h3 data-i18n="fase.1.t">Ferramentas como inferência</h3>
+          <p data-i18n="fase.1.p">Do ChatGPT no navegador ao seu próprio modelo rodando como job na GPU do SDumont.</p>
+        </div>
+        <div class="fase__meta">
+          <span class="fase__semanas" data-i18n="fase.1.s">Semanas 5–9</span>
+          <span class="fase__marco" data-i18n="fase.1.m">Nível 1</span>
+        </div>
+      </article>
+
+      <article class="fase fase--2 revelar">
+        <div class="fase__numero" aria-hidden="true">2</div>
+        <div class="fase__corpo">
+          <h3 data-i18n="fase.2.t">Geração multimídia e Slurm</h3>
+          <p data-i18n="fase.2.p">Imagem, vídeo e áudio como inferência; depuração, benchmark de throughput e higiene de cota.</p>
+        </div>
+        <div class="fase__meta">
+          <span class="fase__semanas" data-i18n="fase.2.s">Semanas 10–14</span>
+          <span class="fase__marco" data-i18n="fase.2.m">Slurm consolidado</span>
+        </div>
+      </article>
+
+      <article class="fase fase--3 revelar">
+        <div class="fase__numero" aria-hidden="true">3</div>
+        <div class="fase__corpo">
+          <h3 data-i18n="fase.3.t">Treino, ajuste fino e escala</h3>
+          <p data-i18n="fase.3.p">Treinar em vez de só inferir: ajuste fino, escala forte e fraca, e os limites da alocação.</p>
+        </div>
+        <div class="fase__meta">
+          <span class="fase__semanas" data-i18n="fase.3.s">Semanas 15–18</span>
+          <span class="fase__marco" data-i18n="fase.3.m">Nível 2</span>
+        </div>
+      </article>
+
+      <article class="fase fase--4 revelar">
+        <div class="fase__numero" aria-hidden="true">4</div>
+        <div class="fase__corpo">
+          <h3 data-i18n="fase.4.t">Culminância integrada</h3>
+          <p data-i18n="fase.4.p">Documentação reprodutível do experimento e apresentação do projeto final com dados reais medidos.</p>
+        </div>
+        <div class="fase__meta">
+          <span class="fase__semanas" data-i18n="fase.4.s">Semanas 19–20</span>
+          <span class="fase__marco" data-i18n="fase.4.m">Projeto integrado</span>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="grupo-botoes revelar" style="margin-top: 1.75rem;">
+      <a class="botao botao--contorno" data-plano-ensino
+         data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md"
+         data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.en.md"
+         href="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md"
+         target="_blank" rel="noopener noreferrer">
+        <span data-i18n="curso.btn.plano">Ler o plano de ensino integrado</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================================================= Infraestrutura ==== -->
+<section class="secao secao--alt" id="infraestrutura">
+  <div class="envoltorio">
+
+    <div class="secao__cabecalho revelar">
+      <p class="selo" data-i18n="infra.selo">Infraestrutura e resultados</p>
+      <h2 data-i18n="infra.titulo">Medido dentro do cluster, não copiado da documentação</h2>
+      <p class="texto-guia" data-i18n="infra.texto">Toda especificação abaixo foi obtida dentro de jobs submetidos ao SDumont. Os benchmarks de comunicação e de treino são os mesmos que a turma reproduz nas Fases 2 e 3 — é assim que o aluno aprende a ler um número de desempenho.</p>
+    </div>
+
+    <div class="grade grade--2">
+
+      <div class="tabela-rolagem revelar">
+        <table>
+          <caption data-i18n="infra.no.cap">Nó de computação · partição sequana_gpu_dev</caption>
+          <thead>
+            <tr>
+              <th scope="col" data-i18n="infra.th.componente">Componente</th>
+              <th scope="col" data-i18n="infra.th.especificacao">Especificação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td data-i18n="infra.no.1.r">GPU</td><td data-i18n="infra.no.1.v">4 × NVIDIA Tesla V100-SXM2, 32 GB cada</td></tr>
+            <tr><td data-i18n="infra.no.2.r">Interconexão entre GPUs</td><td data-i18n="infra.no.2.v">NVLink 2.0, dois enlaces por par, topologia all-to-all</td></tr>
+            <tr><td data-i18n="infra.no.3.r">CPU</td><td data-i18n="infra.no.3.v">48 núcleos, dois sockets, dois domínios NUMA</td></tr>
+            <tr><td data-i18n="infra.no.4.r">Memória</td><td data-i18n="infra.no.4.v">376 GB disponíveis</td></tr>
+            <tr><td data-i18n="infra.no.5.r">Rede</td><td data-i18n="infra.no.5.v">2 × Mellanox InfiniBand, com afinidade NUMA por par de GPUs</td></tr>
+            <tr><td data-i18n="infra.no.6.r">Armazenamento</td><td data-i18n="infra.no.6.v">/prj — 649 TB em NFS · /scratch — 1,4 PB em Lustre</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tabela-rolagem revelar">
+        <table>
+          <caption data-i18n="infra.nccl.cap">All-reduce NCCL em um nó com 4 GPUs</caption>
+          <thead>
+            <tr>
+              <th scope="col" data-i18n="infra.th.mensagem">Tamanho da mensagem</th>
+              <th scope="col" data-i18n="infra.th.latencia">Latência</th>
+              <th scope="col" data-i18n="infra.th.banda">Largura de banda de barramento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="num">64 MB</td><td class="num">0,94 ms</td><td class="num">100,0 GB/s</td></tr>
+            <tr><td class="num">256 MB</td><td class="num">3,49 ms</td><td class="num">107,4 GB/s</td></tr>
+            <tr><td class="num">1024 MB</td><td class="num">13,29 ms</td><td class="num">112,9 GB/s</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="tabela-rolagem revelar" style="margin-top: var(--gap);">
+      <table>
+        <caption data-i18n="infra.treino.cap">Treino de modelo de 355 M parâmetros · DDP em fp16</caption>
+        <thead>
+          <tr>
+            <th scope="col" data-i18n="infra.th.config">Configuração</th>
+            <th scope="col" data-i18n="infra.th.gpus">GPUs</th>
+            <th scope="col" data-i18n="infra.th.tokens">Tokens por segundo</th>
+            <th scope="col" data-i18n="infra.th.passo">Tempo de passo</th>
+            <th scope="col" data-i18n="infra.th.eficiencia">Eficiência de escala</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-i18n="infra.treino.1.r">1 nó</td>
+            <td class="num">4</td><td class="num">40.967</td><td class="num">400 ms</td>
+            <td class="num" data-i18n="infra.treino.1.e">referência</td>
+          </tr>
+          <tr>
+            <td data-i18n="infra.treino.2.r">2 nós</td>
+            <td class="num">8</td><td class="num">76.991</td><td class="num">426 ms</td>
+            <td class="num destaque-valor">94,0%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="nota revelar" style="margin-top: var(--gap);">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 16v-5M12 8h.01"/></svg>
+      <p data-i18n-html="infra.nota"><strong>A eficiência de 94% em dois nós</strong> demonstra que a InfiniBand não constitui gargalo nessa escala.</p>
+    </div>
+
+    <div class="grupo-botoes revelar" style="margin-top: 1.75rem;">
+      <a class="botao botao--contorno"
+         data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md"
+         data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.en.md"
+         href="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md"
+         target="_blank" rel="noopener noreferrer">
+        <span data-i18n="infra.btn.relatorio">Ler o relatório técnico completo</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================ Chamada área de ensino == -->
+<section class="secao" id="ensino">
+  <div class="envoltorio">
+    <div class="secao__cabecalho secao__cabecalho--centro revelar">
+      <p class="selo" data-i18n="teaser.selo">Área de ensino</p>
+      <h2 data-i18n="teaser.titulo">As aulas, semana a semana</h2>
+      <p class="texto-guia texto-guia--centro" data-i18n="teaser.texto">Cada uma das 20 semanas tem uma aula em vídeo e um notebook prático correspondente, além do módulo opcional de estudo de caso em duas partes. A trilha segue exatamente o plano de ensino integrado.</p>
+      <div class="grupo-botoes" style="justify-content: center; margin-top: 1.75rem;">
+        <a class="botao botao--primario" href="ensino.html">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 001.54.84l10.28-6.86a1 1 0 000-1.68L9.54 4.3A1 1 0 008 5.14z"/></svg>
+          <span data-i18n="teaser.btn">Abrir a área de ensino</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================= Professor ==== -->
+<section class="secao secao--alt" id="professor">
+  <div class="envoltorio">
+
+    <div class="secao__cabecalho revelar">
+      <p class="selo" data-i18n="prof.selo">Professor</p>
+    </div>
+
+    <div class="professor revelar">
+
+      <div class="professor__retrato" aria-hidden="true">BM</div>
+
+      <div>
+        <p class="professor__papel" data-i18n="prof.papel">Coordenação do projeto</p>
+        <h2 class="professor__nome" data-i18n="prof.nome">Bruno Leonardo Santos Menezes</h2>
+        <p class="professor__bio" data-i18n="prof.bio">Professor da FAETEC, Unidade Resende, e coordenador do PEIA-HPC. Responsável pela concepção do projeto, pela implantação do ambiente computacional no SDumont e pela produção do material didático do curso.</p>
+
+        <p class="professor__ids">
+          <span>ORCID <a href="https://orcid.org/0000-0001-6249-2395" target="_blank" rel="noopener noreferrer">0000-0001-6249-2395</a></span>
+          <span>Lattes <a href="http://lattes.cnpq.br/7671983530035555" target="_blank" rel="noopener noreferrer">7671983530035555</a></span>
+        </p>
+
+        <div class="grupo-botoes">
+          <a class="botao botao--primario" href="https://brunoleomenezes.github.io/" target="_blank" rel="noopener noreferrer">
+            <span data-i18n="prof.btn">Página do professor</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            <span class="oculto-visual" data-i18n="nav.novaAba">abre em nova aba</span>
+          </a>
+          <a class="botao botao--contorno" href="https://github.com/brunoleomenezes/peia-hpc" target="_blank" rel="noopener noreferrer">
+            <span data-i18n="prof.btn.repo">Ver o repositório do projeto</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            <span class="oculto-visual" data-i18n="nav.novaAba">abre em nova aba</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================================================== Chamada final ==== -->
+<section class="secao">
+  <div class="envoltorio">
+    <div class="chamada revelar">
+      <h2 data-i18n="cta.titulo">Comece pela primeira aula</h2>
+      <p data-i18n="cta.texto">A trilha começa no terminal Linux e termina com o seu próprio experimento rodando em duas máquinas do supercomputador Santos Dumont. Todo o material é aberto.</p>
+      <div class="grupo-botoes">
+        <a class="botao botao--acento" href="ensino.html" data-i18n="cta.btn1">Ir para as aulas</a>
+        <a class="botao botao--fantasma-claro" href="https://github.com/brunoleomenezes/peia-hpc" target="_blank" rel="noopener noreferrer" data-i18n="cta.btn2">Ver no GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ========================================================== Rodapé ==== -->
+<footer class="rodape">
+  <div class="envoltorio">
+
+    <div class="rodape__grade">
+
+      <div>
+        <a class="rodape__marca" href="index.html" aria-label="PEIA-HPC">
+          <span class="marca__simbolo" aria-hidden="true">
+            <svg viewBox="0 0 64 64">
+              <rect width="64" height="64" rx="14" fill="#0A2A43"/>
+              <g fill="none" stroke-linecap="round">
+                <path d="M12 47 C 25 47, 37 40, 44 27" stroke="#0072B2" stroke-width="7"/>
+                <path d="M18 44 C 29 44, 39 38, 45 26" stroke="#5AA3D0" stroke-width="4.5"/>
+              </g>
+              <line x1="45" y1="25" x2="52" y2="15" stroke="#E69F00" stroke-width="3.4" stroke-linecap="round"/>
+              <circle cx="45" cy="25" r="5" fill="#009E73"/>
+              <circle cx="52" cy="15" r="5.6" fill="#E69F00"/>
+            </svg>
+          </span>
+          <span class="marca__texto">
+            <span class="marca__nome">PEIA-HPC</span>
+            <span class="marca__descritor" data-i18n="marca.descritor">IA aplicada · Computação científica</span>
+          </span>
+        </a>
+        <p class="rodape__sobre" data-i18n="rodape.sobre">Formação Nacional em Inteligência Artificial Aplicada e Computação Científica utilizando Infraestrutura HPC do SINAPAD. Proposta 249134, Supercomputador Santos Dumont, LNCC/MCTI.</p>
+      </div>
+
+      <div>
+        <h3 data-i18n="rodape.col1">Navegação</h3>
+        <ul>
+          <li><a href="#projeto" data-i18n="nav.projeto">O projeto</a></li>
+          <li><a href="#curso" data-i18n="nav.curso">O curso</a></li>
+          <li><a href="#infraestrutura" data-i18n="nav.infra">Infraestrutura</a></li>
+          <li><a href="ensino.html" data-i18n="nav.ensino">Área de ensino</a></li>
+          <li><a href="https://brunoleomenezes.github.io/" target="_blank" rel="noopener noreferrer" data-i18n="nav.professor">Professor</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 data-i18n="rodape.col2">Material</h3>
+        <ul>
+          <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks/README.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks/en/README.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks/README.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.notebooks">Notebooks das aulas</a></li>
+          <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.en.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.plano">Plano de ensino</a></li>
+          <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.en.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.relatorio">Relatório técnico</a></li>
+          <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/identidade-visual/README.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/identidade-visual/README.en.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/identidade-visual/README.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.identidade">Identidade visual</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 data-i18n="rodape.col3">Instituições</h3>
+        <ul>
+          <li><a href="https://sdumont.lncc.br" target="_blank" rel="noopener noreferrer">SDumont / LNCC</a></li>
+          <li><a href="https://www.lncc.br" target="_blank" rel="noopener noreferrer">LNCC / MCTI</a></li>
+          <li><a href="https://www.faetec.rj.gov.br" target="_blank" rel="noopener noreferrer">FAETEC</a></li>
+          <li><a href="https://github.com/brunoleomenezes/peia-hpc" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="rodape__agradecimento" data-i18n-html="rodape.agradecimento">Os experimentos e as atividades práticas deste projeto foram realizados com recursos do Supercomputador SDumont, do <strong>Laboratório Nacional de Computação Científica (LNCC/MCTI)</strong>.</p>
+
+    <div class="rodape__base">
+      <span>© 2026 PEIA-HPC · <span data-i18n="rodape.licenca">Conteúdo licenciado sob Apache 2.0</span></span>
+      <span data-i18n="rodape.direitos">Projeto educacional e científico aberto</span>
+    </div>
+
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
