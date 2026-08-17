@@ -1249,6 +1249,18 @@ td:first-child {
   box-shadow: 0 8px 24px rgba(0, 158, 115, 0.28);
 }
 
+.coordenador__retrato--foto {
+  background: none;
+}
+
+.coordenador__retrato img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--r-full);
+  object-fit: cover;
+  display: block;
+}
+
 .coordenador__retrato::after {
   /* Nó âmbar orbitando: o acento assimétrico da identidade */
   content: "";
