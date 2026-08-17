@@ -93,6 +93,10 @@ As decisões de forma (curvatura predominante, simetria com um acento assimétri
 - **Busca e filtro por fase** na trilha do curso; link direto para cada aula (ex.: `ensino.html#s07`).
 - **Acessibilidade**: navegação por teclado, foco visível, `prefers-reduced-motion`, contraste WCAG 2.1 e conteúdo legível sem JavaScript.
 
+## Cache dos assets
+
+O CSS e os scripts são referenciados com um parâmetro de versão, por exemplo `estilo.css?v=2`. Ao alterar qualquer arquivo em `assets/`, **incremente esse número nas duas páginas**. Sem isso, quem já visitou o site continua vendo a versão antiga do arquivo em cache, mesmo com o HTML novo.
+
 ## Desenvolvimento local
 
 Qualquer servidor estático serve. A área de ensino carrega `dados/aulas.json` via `fetch`, então **não funciona abrindo o arquivo direto com `file://`**:
