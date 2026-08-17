@@ -84,8 +84,6 @@ window.PEIA_I18N = {
     "curso.fato.4.v": "20, com mínimo de 10",
     "curso.fato.5.r": "Pré-requisitos",
     "curso.fato.5.v": "Idade mínima de 16 anos e Ensino Fundamental II completo",
-    "curso.fato.6.r": "Certificação",
-    "curso.fato.6.v": "Certificado de Qualificação Profissional",
 
     "curso.fases.titulo": "As cinco fases",
     "curso.btn.plano": "Ler o plano de ensino integrado",
@@ -320,8 +318,6 @@ window.PEIA_I18N = {
     "curso.fato.4.v": "20, minimum of 10",
     "curso.fato.5.r": "Prerequisites",
     "curso.fato.5.v": "Minimum age 16, lower secondary education completed",
-    "curso.fato.6.r": "Certification",
-    "curso.fato.6.v": "Professional Qualification Certificate",
 
     "curso.fases.titulo": "The five phases",
     "curso.btn.plano": "Read the integrated teaching plan",
