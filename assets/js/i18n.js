@@ -37,7 +37,7 @@ window.PEIA_I18N = {
     "hero.selo.texto": "Supercomputador Santos Dumont · LNCC/MCTI",
     "hero.titulo": "O supercomputador entra na <em>sala de aula</em>",
     "hero.sub":
-      "O PEIA-HPC leva a infraestrutura nacional de computação de alto desempenho para o ensino técnico. O aluno não só usa ferramentas de IA: submete jobs, mede desempenho real de GPU e entende o que acontece por baixo do capô.",
+      "O PEIA-HPC leva a infraestrutura nacional de computação de alto desempenho para o ensino. O aluno não só usa ferramentas de IA: submete jobs, mede desempenho real de GPU e entende o que acontece por baixo do capô.",
     "hero.btn.aulas": "Entrar na área de ensino",
     "hero.btn.projeto": "Conhecer o projeto",
     "hero.cred.1": "Instituto de IA do LNCC",
@@ -54,7 +54,7 @@ window.PEIA_I18N = {
     "projeto.selo": "O projeto",
     "projeto.titulo": "Verticalizar, não acrescentar",
     "projeto.texto":
-      "A formação em IA no ensino técnico brasileiro costuma parar no uso de ferramentas prontas. Aqui, cada tópico do currículo aponta para um modelo de IA, e o percurso desce em profundidade sobre o mesmo objeto, até o aluno rodar, medir e ajustar esse modelo em um supercomputador nacional.",
+      "A formação em IA no ensino brasileiro costuma parar no uso de ferramentas prontas. Aqui, cada tópico do currículo aponta para um modelo de IA, e o percurso desce em profundidade sobre o mesmo objeto, até o aluno rodar, medir e ajustar esse modelo em um supercomputador nacional.",
     "projeto.c1.t": "O mesmo objeto, duas profundidades",
     "projeto.c1.p":
       "A camada de HPC não é matéria nova no fim do curso. É o \"por baixo do capô\" de tudo que a turma já usa desde a primeira semana. Quando o currículo diz \"use este modelo\", o projeto pergunta: de onde ele veio, e podemos rodá-lo nós mesmos?",
@@ -148,7 +148,7 @@ window.PEIA_I18N = {
     "coord.selo": "Coordenação",
     "coord.titulo": "Quem conduz o projeto",
     "coord.texto":
-      "O PEIA-HPC nasce do encontro entre a sala de aula do ensino técnico e a pesquisa em computação científica, e é coordenado pelas duas pontas dessa ponte.",
+      "O PEIA-HPC nasce do encontro entre a sala de aula do ensino e a pesquisa em computação científica, e é coordenado pelas duas pontas dessa ponte.",
 
     "coord.b.papel": "Idealizador · Professor",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",
@@ -280,7 +280,7 @@ window.PEIA_I18N = {
     "hero.selo.texto": "Santos Dumont Supercomputer · LNCC/MCTI",
     "hero.titulo": "The supercomputer walks into the <em>classroom</em>",
     "hero.sub":
-      "PEIA-HPC brings Brazil's national high performance computing infrastructure into technical education. Students don't just use AI tools: they submit jobs, measure real GPU performance and understand what happens under the hood.",
+      "PEIA-HPC brings Brazil's national high performance computing infrastructure into education. Students don't just use AI tools: they submit jobs, measure real GPU performance and understand what happens under the hood.",
     "hero.btn.aulas": "Enter the learning area",
     "hero.btn.projeto": "About the project",
     "hero.cred.1": "LNCC AI Institute",
@@ -297,7 +297,7 @@ window.PEIA_I18N = {
     "projeto.selo": "The project",
     "projeto.titulo": "Go deeper, don't bolt on",
     "projeto.texto":
-      "AI education in Brazilian technical schools typically stops at using off-the-shelf tools. Here, every curriculum topic points to an AI model, and the course descends into the same object until students run, measure and fine-tune that model on a national supercomputer.",
+      "AI education in Brazilian schools typically stops at using off-the-shelf tools. Here, every curriculum topic points to an AI model, and the course descends into the same object until students run, measure and fine-tune that model on a national supercomputer.",
     "projeto.c1.t": "One object, two depths",
     "projeto.c1.p":
       "The HPC layer is not new material tacked on at the end. It is the \"under the hood\" of everything the class has been using since week one. When the curriculum says \"use this model\", the project asks: where did it come from, and can we run it ourselves?",
@@ -391,7 +391,7 @@ window.PEIA_I18N = {
     "coord.selo": "Coordination",
     "coord.titulo": "Who leads the project",
     "coord.texto":
-      "PEIA-HPC grows out of the meeting between the technical-school classroom and scientific computing research, and it is coordinated from both ends of that bridge.",
+      "PEIA-HPC grows out of the meeting between the classroom and scientific computing research, and it is coordinated from both ends of that bridge.",
 
     "coord.b.papel": "Originator · Teacher",
     "coord.b.nome": "Bruno Leonardo Santos Menezes",

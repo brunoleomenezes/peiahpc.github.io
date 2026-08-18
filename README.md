@@ -89,7 +89,7 @@ Quando um desses documentos mudar no repositório de conteúdo, copie o arquivo 
 | Relatório técnico | `docs/relatorio-tecnico.md` (e `.en.md`) | `documentos/relatorio-pt.md` / `relatorio-en.md` |
 | Identidade visual | `identidade-visual/README.md` (e `.en.md`) | `documentos/identidade-pt.md` / `identidade-en.md` |
 
-Ao copiar, ajuste os links relativos do Markdown: os que apontam para outro desses três documentos devem virar `plano.html`, `relatorio.html` ou `identidade.html`; os demais devem virar URLs absolutas do GitHub. Os âncoras `#secao` seguem o mesmo formato do GitHub e continuam válidos.
+Ao copiar, ajuste os links relativos do Markdown: os que apontam para outro desses três documentos devem virar `plano.html`, `relatorio.html` ou `identidade.html`; os demais devem virar URLs absolutas do GitHub. Os âncoras `#secao` seguem o mesmo formato do GitHub e continuam válidos. As imagens embutidas também precisam de ajuste: o caminho passa a ser relativo à raiz do site, por exemplo `assets/img/peia-hpc-logo.svg`.
 
 Os notebooks continuam sendo lidos no GitHub, por dependerem da renderização de células e saídas.
 
@@ -116,7 +116,7 @@ As decisões de forma (curvatura predominante, simetria com um acento assimétri
 
 ## Cache dos assets
 
-O CSS e os scripts são referenciados com um parâmetro de versão, por exemplo `estilo.css?v=5`. Ao alterar qualquer arquivo em `assets/`, **incremente esse número em todas as páginas**. Sem isso, quem já visitou o site continua vendo a versão antiga do arquivo em cache, mesmo com o HTML novo.
+O CSS e os scripts são referenciados com um parâmetro de versão, por exemplo `estilo.css?v=6`. Ao alterar qualquer arquivo em `assets/`, **incremente esse número em todas as páginas**. Sem isso, quem já visitou o site continua vendo a versão antiga do arquivo em cache, mesmo com o HTML novo.
 
 ## Desenvolvimento local
 

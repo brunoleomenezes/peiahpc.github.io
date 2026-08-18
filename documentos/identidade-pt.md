@@ -3,7 +3,7 @@
 > **🌐 Idioma / Language:** **🇧🇷 Português** · [🇺🇸 English](identidade.html)
 
 <p align="center">
-  <img src="peia-hpc-logo.svg" alt="Logotipo PEIA-HPC" width="440">
+  <img src="assets/img/peia-hpc-logo.svg" alt="Logotipo PEIA-HPC" width="440">
 </p>
 
 Este documento registra o **símbolo do projeto PEIA-HPC** e a **fundamentação científica** que justifica cada decisão de design. O objetivo é que a escolha visual seja tão reprodutível e auditável quanto o restante do repositório: nada aqui é gosto pessoal sem lastro: cada característica (forma, cor, simetria, tipografia) está ancorada em evidência empírica revisada por pares.
@@ -65,7 +65,7 @@ O que o conjunto comunica: **pioneirismo brasileiro + computação em rede + ele
 ### 4. Simbolismo brasileiro e local
 
 - **Alberto Santos-Dumont (1873–1932)**, "pai da aviação", dá nome ao supercomputador. O voo público do **14-Bis** (biplano canard) em Bagatelle/Paris, em **23/10/1906**, e os **220 m em 12/11/1906** são marcos homologados. A asa estilizada honra esse pioneirismo **sem** representar uma aeronave literal.
-- **Geografia**: o LNCC fica em Petrópolis (serra do RJ); o polo de ensino técnico no Sul Fluminense, junto à Serra da Mantiqueira e ao **Pico das Agulhas Negras (2.791 m)**. O relevo (serra, cume) dialoga com "alcançar o alto": coerente com aspiração científica.
+- **Geografia**: o LNCC fica em Petrópolis (serra do RJ); o polo de ensino no Sul Fluminense, junto à Serra da Mantiqueira e ao **Pico das Agulhas Negras (2.791 m)**. O relevo (serra, cume) dialoga com "alcançar o alto": coerente com aspiração científica.
 - **Design decolonial** (Escobar, 2018, _Designs for the Pluriverse_): um design **situado no lugar**, que ancora a identidade em imaginário brasileiro em vez de importar imaginários tecnológicos do Norte global.
 
 ### 5. Tipografia

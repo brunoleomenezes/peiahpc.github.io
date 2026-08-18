@@ -3,7 +3,7 @@
 > **🌐 Language / Idioma:** [🇧🇷 Português](identidade.html) · **🇺🇸 English**
 
 <p align="center">
-  <img src="peia-hpc-logo.svg" alt="PEIA-HPC logo" width="440">
+  <img src="assets/img/peia-hpc-logo.svg" alt="PEIA-HPC logo" width="440">
 </p>
 
 This document records the **symbol of the PEIA-HPC project** and the **scientific rationale** that justifies each design decision. The goal is for the visual choice to be as reproducible and auditable as the rest of the repository: nothing here is unsupported personal taste: every characteristic (form, color, symmetry, typography) is anchored in peer-reviewed empirical evidence.
@@ -65,7 +65,7 @@ What the whole communicates: **Brazilian pioneering spirit + networked computing
 ### 4. Brazilian and local symbolism
 
 - **Alberto Santos-Dumont (1873–1932)**, "father of aviation", gives his name to the supercomputer. The public flight of the **14-Bis** (canard biplane) at Bagatelle/Paris, on **23/10/1906**, and the **220 m on 12/11/1906** are ratified milestones. The stylized wing honors this pioneering spirit **without** depicting a literal aircraft.
-- **Geography**: the LNCC is in Petrópolis (RJ highlands); the technical education hub is in the Sul Fluminense region, near the Serra da Mantiqueira and the **Pico das Agulhas Negras (2,791 m)**. The relief (mountains, peak) dialogues with "reaching the heights": consistent with scientific aspiration.
+- **Geography**: the LNCC is in Petrópolis (RJ highlands); the education hub is in the Sul Fluminense region, near the Serra da Mantiqueira and the **Pico das Agulhas Negras (2,791 m)**. The relief (mountains, peak) dialogues with "reaching the heights": consistent with scientific aspiration.
 - **Decolonial design** (Escobar, 2018, _Designs for the Pluriverse_): a design **situated in place**, which anchors identity in Brazilian imagery rather than importing technological imaginaries from the Global North.
 
 ### 5. Typography
