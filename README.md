@@ -59,18 +59,39 @@ Faça o commit do `dados/aulas.json` na branch que o GitHub Pages serve. O site 
 
 ```
 peiahpc.github.io/
-├── index.html              Página inicial: projeto, curso, infraestrutura, professor
+├── index.html              Página inicial: projeto, curso, infraestrutura, coordenação
 ├── ensino.html             Área de ensino: player, trilha das 22 aulas, progresso
+├── plano.html              Plano de ensino integrado
+├── relatorio.html          Relatório técnico
+├── identidade.html         Identidade visual
 ├── dados/
 │   └── aulas.json          ← única fonte de conteúdo das aulas (PT e EN)
+├── documentos/             Markdown dos três documentos acima, PT e EN
 ├── assets/
 │   ├── css/estilo.css      Sistema visual derivado da identidade do projeto
 │   ├── js/i18n.js          Dicionário bilíngue (todo o texto da interface)
 │   ├── js/site.js          Tema, idioma, navegação
 │   ├── js/ensino.js        Trilha do curso, player, busca, filtros, progresso
+│   ├── js/documento.js     Converte o Markdown dos documentos e monta o sumário
 │   └── img/                Logotipo, símbolo e favicon
 └── .nojekyll               Serve os arquivos como estão, sem processar com Jekyll
 ```
+
+## Documentos no site
+
+`plano.html`, `relatorio.html` e `identidade.html` exibem, dentro do site, o mesmo conteúdo dos documentos que vivem no repositório [peia-hpc](https://github.com/brunoleomenezes/peia-hpc). O texto não é duplicado à mão: cada página carrega o Markdown correspondente de `documentos/` e o converte no navegador, montando o sumário a partir dos títulos.
+
+Quando um desses documentos mudar no repositório de conteúdo, copie o arquivo novo para `documentos/` mantendo o nome:
+
+| Documento | Origem em `peia-hpc` | Arquivo aqui |
+|---|---|---|
+| Plano de ensino | `curso/plano-de-ensino-integrado.md` (e `.en.md`) | `documentos/plano-pt.md` / `plano-en.md` |
+| Relatório técnico | `docs/relatorio-tecnico.md` (e `.en.md`) | `documentos/relatorio-pt.md` / `relatorio-en.md` |
+| Identidade visual | `identidade-visual/README.md` (e `.en.md`) | `documentos/identidade-pt.md` / `identidade-en.md` |
+
+Ao copiar, ajuste os links relativos do Markdown: os que apontam para outro desses três documentos devem virar `plano.html`, `relatorio.html` ou `identidade.html`; os demais devem virar URLs absolutas do GitHub. Os âncoras `#secao` seguem o mesmo formato do GitHub e continuam válidos.
+
+Os notebooks continuam sendo lidos no GitHub, por dependerem da renderização de células e saídas.
 
 ## Identidade visual
 
@@ -95,7 +116,7 @@ As decisões de forma (curvatura predominante, simetria com um acento assimétri
 
 ## Cache dos assets
 
-O CSS e os scripts são referenciados com um parâmetro de versão, por exemplo `estilo.css?v=2`. Ao alterar qualquer arquivo em `assets/`, **incremente esse número nas duas páginas**. Sem isso, quem já visitou o site continua vendo a versão antiga do arquivo em cache, mesmo com o HTML novo.
+O CSS e os scripts são referenciados com um parâmetro de versão, por exemplo `estilo.css?v=5`. Ao alterar qualquer arquivo em `assets/`, **incremente esse número em todas as páginas**. Sem isso, quem já visitou o site continua vendo a versão antiga do arquivo em cache, mesmo com o HTML novo.
 
 ## Desenvolvimento local
 

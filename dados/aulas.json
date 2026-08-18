@@ -5,50 +5,120 @@
     "repositorio": "https://github.com/brunoleomenezes/peia-hpc",
     "notebooksBase": "https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks",
     "planoDeEnsino": {
-      "pt": "https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md",
-      "en": "https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.en.md"
+      "pt": "plano.html",
+      "en": "plano.html"
     }
   },
-
   "fases": [
     {
       "id": "fase0",
       "cor": "0",
-      "pt": { "nome": "Fase 0: Fundamentos e prontidão", "curto": "Fase 0", "semanas": "Semanas 1–4", "marco": "Nível 0", "resumo": "Terminal Linux, acesso remoto por VPN e SSH, e o primeiro job no escalonador de filas." },
-      "en": { "nome": "Phase 0: Fundamentals and readiness", "curto": "Phase 0", "semanas": "Weeks 1–4", "marco": "Level 0", "resumo": "Linux terminal, remote access over VPN and SSH, and the first job on the queue scheduler." }
+      "pt": {
+        "nome": "Fase 0: Fundamentos e prontidão",
+        "curto": "Fase 0",
+        "semanas": "Semanas 1–4",
+        "marco": "Nível 0",
+        "resumo": "Terminal Linux, acesso remoto por VPN e SSH, e o primeiro job no escalonador de filas."
+      },
+      "en": {
+        "nome": "Phase 0: Fundamentals and readiness",
+        "curto": "Phase 0",
+        "semanas": "Weeks 1–4",
+        "marco": "Level 0",
+        "resumo": "Linux terminal, remote access over VPN and SSH, and the first job on the queue scheduler."
+      }
     },
     {
       "id": "fase1",
       "cor": "1",
-      "pt": { "nome": "Fase 1: Ferramentas como inferência", "curto": "Fase 1", "semanas": "Semanas 5–9", "marco": "Nível 1", "resumo": "Do ChatGPT no navegador ao seu próprio modelo rodando como job na GPU do SDumont." },
-      "en": { "nome": "Phase 1: Tools as inference", "curto": "Phase 1", "semanas": "Weeks 5–9", "marco": "Level 1", "resumo": "From ChatGPT in the browser to your own model running as a job on an SDumont GPU." }
+      "pt": {
+        "nome": "Fase 1: Ferramentas como inferência",
+        "curto": "Fase 1",
+        "semanas": "Semanas 5–9",
+        "marco": "Nível 1",
+        "resumo": "Do ChatGPT no navegador ao seu próprio modelo rodando como job na GPU do SDumont."
+      },
+      "en": {
+        "nome": "Phase 1: Tools as inference",
+        "curto": "Phase 1",
+        "semanas": "Weeks 5–9",
+        "marco": "Level 1",
+        "resumo": "From ChatGPT in the browser to your own model running as a job on an SDumont GPU."
+      }
     },
     {
       "id": "fase2",
       "cor": "2",
-      "pt": { "nome": "Fase 2: Geração multimídia e Slurm", "curto": "Fase 2", "semanas": "Semanas 10–14", "marco": "Slurm consolidado", "resumo": "Imagem, vídeo e áudio como inferência; depuração, benchmark de throughput e higiene de cota." },
-      "en": { "nome": "Phase 2: Multimedia generation and Slurm", "curto": "Phase 2", "semanas": "Weeks 10–14", "marco": "Slurm consolidated", "resumo": "Image, video and audio as inference; debugging, throughput benchmarking and quota hygiene." }
+      "pt": {
+        "nome": "Fase 2: Geração multimídia e Slurm",
+        "curto": "Fase 2",
+        "semanas": "Semanas 10–14",
+        "marco": "Slurm consolidado",
+        "resumo": "Imagem, vídeo e áudio como inferência; depuração, benchmark de throughput e higiene de cota."
+      },
+      "en": {
+        "nome": "Phase 2: Multimedia generation and Slurm",
+        "curto": "Phase 2",
+        "semanas": "Weeks 10–14",
+        "marco": "Slurm consolidated",
+        "resumo": "Image, video and audio as inference; debugging, throughput benchmarking and quota hygiene."
+      }
     },
     {
       "id": "fase3",
       "cor": "3",
-      "pt": { "nome": "Fase 3: Treino, ajuste fino e escala", "curto": "Fase 3", "semanas": "Semanas 15–18", "marco": "Nível 2", "resumo": "Treinar em vez de só inferir: ajuste fino, escala forte e fraca, e os limites da alocação." },
-      "en": { "nome": "Phase 3: Training, fine-tuning and scaling", "curto": "Phase 3", "semanas": "Weeks 15–18", "marco": "Level 2", "resumo": "Training rather than only inferring: fine-tuning, strong and weak scaling, and allocation limits." }
+      "pt": {
+        "nome": "Fase 3: Treino, ajuste fino e escala",
+        "curto": "Fase 3",
+        "semanas": "Semanas 15–18",
+        "marco": "Nível 2",
+        "resumo": "Treinar em vez de só inferir: ajuste fino, escala forte e fraca, e os limites da alocação."
+      },
+      "en": {
+        "nome": "Phase 3: Training, fine-tuning and scaling",
+        "curto": "Phase 3",
+        "semanas": "Weeks 15–18",
+        "marco": "Level 2",
+        "resumo": "Training rather than only inferring: fine-tuning, strong and weak scaling, and allocation limits."
+      }
     },
     {
       "id": "fase4",
       "cor": "4",
-      "pt": { "nome": "Fase 4: Culminância integrada", "curto": "Fase 4", "semanas": "Semanas 19–20", "marco": "Projeto integrado", "resumo": "Documentação reprodutível do experimento e apresentação do projeto final com dados reais medidos." },
-      "en": { "nome": "Phase 4: Integrated capstone", "curto": "Phase 4", "semanas": "Weeks 19–20", "marco": "Integrated project", "resumo": "Reproducible documentation of the experiment and final project presentation with real measured data." }
+      "pt": {
+        "nome": "Fase 4: Culminância integrada",
+        "curto": "Fase 4",
+        "semanas": "Semanas 19–20",
+        "marco": "Projeto integrado",
+        "resumo": "Documentação reprodutível do experimento e apresentação do projeto final com dados reais medidos."
+      },
+      "en": {
+        "nome": "Phase 4: Integrated capstone",
+        "curto": "Phase 4",
+        "semanas": "Weeks 19–20",
+        "marco": "Integrated project",
+        "resumo": "Reproducible documentation of the experiment and final project presentation with real measured data."
+      }
     },
     {
       "id": "caso",
       "cor": "4",
-      "pt": { "nome": "Estudo de caso: Ablação do filtro de variante", "curto": "Estudo de caso", "semanas": "Extensão opcional", "marco": "Opcional", "resumo": "Módulo especial de duas partes, pós-Fase 4, para equipes que chegarem prontas: um experimento real de ponta a ponta." },
-      "en": { "nome": "Case study: Variant filter ablation", "curto": "Case study", "semanas": "Optional extension", "marco": "Optional", "resumo": "An optional two-part module after Phase 4, for teams that arrive ready: a complete end-to-end experiment." }
+      "pt": {
+        "nome": "Estudo de caso: Ablação do filtro de variante",
+        "curto": "Estudo de caso",
+        "semanas": "Extensão opcional",
+        "marco": "Opcional",
+        "resumo": "Módulo especial de duas partes, pós-Fase 4, para equipes que chegarem prontas: um experimento real de ponta a ponta."
+      },
+      "en": {
+        "nome": "Case study: Variant filter ablation",
+        "curto": "Case study",
+        "semanas": "Optional extension",
+        "marco": "Optional",
+        "resumo": "An optional two-part module after Phase 4, for teams that arrive ready: a complete end-to-end experiment."
+      }
     }
   ],
-
   "aulas": [
     {
       "id": "s01",

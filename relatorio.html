@@ -3,20 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Área de ensino · PEIA-HPC</title>
-<meta name="description" data-i18n-content="meta.desc.ensino" content="Aulas em vídeo do curso de Inteligência Artificial Aplicada do PEIA-HPC: 20 semanas em cinco fases, com notebooks práticos executados no supercomputador SDumont.">
+<title>Relatório técnico · PEIA-HPC</title>
+<meta name="description" data-i18n-content="meta.desc.relatorio" content="Relatório técnico do projeto PEIA-HPC.">
 <meta name="author" content="Bruno Leonardo Santos Menezes">
 <meta name="theme-color" content="#071d2f">
 
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/img/favicon.svg">
-<link rel="canonical" href="https://peiahpc.github.io/ensino.html">
+<link rel="canonical" href="https://peiahpc.github.io/relatorio.html">
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:site_name" content="PEIA-HPC">
-<meta property="og:title" content="Área de ensino · PEIA-HPC">
-<meta property="og:description" content="Cinco fases, com aula em vídeo e notebook prático executado no supercomputador Santos Dumont.">
-<meta property="og:url" content="https://peiahpc.github.io/ensino.html">
+<meta property="og:title" content="Relatório técnico · PEIA-HPC">
+<meta property="og:url" content="https://peiahpc.github.io/relatorio.html">
 <meta property="og:image" content="https://peiahpc.github.io/assets/img/peia-hpc-logo.svg">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -27,7 +26,7 @@
 <noscript><style>.revelar{opacity:1;transform:none}</style></noscript>
 </head>
 
-<body data-i18n-titulo="meta.titulo.ensino">
+<body data-i18n-titulo="meta.titulo.relatorio" data-documento="relatorio">
 
 <a class="pular-para-conteudo" href="#conteudo" data-i18n="pular">Pular para o conteúdo</a>
 
@@ -62,7 +61,7 @@
       <a class="nav__link" href="index.html#projeto" data-i18n="nav.projeto">O projeto</a>
       <a class="nav__link" href="index.html#curso" data-i18n="nav.curso">O curso</a>
       <a class="nav__link" href="index.html#infraestrutura" data-i18n="nav.infra">Infraestrutura</a>
-      <a class="nav__link" href="ensino.html" aria-current="page" data-i18n="nav.ensino">Área de ensino</a>
+      <a class="nav__link" href="ensino.html" data-i18n="nav.ensino">Área de ensino</a>
       <a class="nav__link" href="index.html#professor" data-i18n="nav.professor">Coordenação</a>
 
       <div class="ferramentas">
@@ -84,22 +83,17 @@
 
 <main id="conteudo">
 
-<!-- =================================================== Hero compacto ==== -->
 <section class="hero hero--compacto">
-
   <svg class="hero__malha" viewBox="0 0 1440 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
     <defs>
-      <pattern id="malha-ensino" width="72" height="72" patternUnits="userSpaceOnUse">
+      <pattern id="malha-relatorio" width="72" height="72" patternUnits="userSpaceOnUse">
         <path d="M72 0H0V72" fill="none" stroke="rgba(143,192,224,0.16)" stroke-width="1"/>
         <circle cx="0" cy="0" r="1.8" fill="rgba(102,194,169,0.4)"/>
       </pattern>
     </defs>
-    <rect width="1440" height="400" fill="url(#malha-ensino)"/>
+    <rect width="1440" height="400" fill="url(#malha-relatorio)"/>
     <g stroke="rgba(143,192,224,0.2)" stroke-width="1.2" fill="none">
       <path d="M100 330 L 320 250 L 540 300 L 760 200 L 980 260 L 1200 160 L 1380 210"/>
-    </g>
-    <g fill="rgba(102,194,169,0.5)">
-      <circle cx="320" cy="250" r="3.5"/><circle cx="760" cy="200" r="3.5"/><circle cx="980" cy="260" r="3"/>
     </g>
     <circle cx="1200" cy="160" r="5" fill="rgba(230,159,0,0.65)"/>
   </svg>
@@ -107,74 +101,34 @@
   <div class="envoltorio">
     <p class="hero__selo">
       <strong data-i18n="hero.selo.marca">SINAPAD 249134</strong>
-      <span data-i18n="ens.hero.selo">5 fases · 22 aulas</span>
+      <span data-i18n="doc.selo">Documentação do projeto</span>
     </p>
-    <h1 class="hero__titulo" data-i18n="ens.hero.titulo">Área de ensino</h1>
-    <p class="hero__subtitulo" data-i18n="ens.hero.sub">Assista à aula da semana e siga com o notebook prático correspondente, executado no SDumont. A trilha reproduz o plano de ensino integrado, da primeira linha de terminal ao benchmark em dois nós.</p>
-
+    <h1 class="hero__titulo" data-i18n="doc.relatorio.titulo">Relatório técnico</h1>
+    <p class="hero__subtitulo" data-i18n="doc.relatorio.sub">Documento do projeto PEIA-HPC.</p>
     <div class="grupo-botoes">
-      <a class="botao botao--acento" href="#" data-playlist target="_blank" rel="noopener noreferrer" hidden>
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 001.54.84l10.28-6.86a1 1 0 000-1.68L9.54 4.3A1 1 0 008 5.14z"/></svg>
-        <span data-i18n="ens.playlist.btn">Ver playlist completa</span>
+      <a class="botao botao--fantasma-claro" data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.en.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md" target="_blank" rel="noopener noreferrer">
+        <span data-i18n="doc.github">Ver a fonte no GitHub</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+        <span class="oculto-visual" data-i18n="nav.novaAba">abre em nova aba</span>
       </a>
-      <a class="botao botao--fantasma-claro"
-         href="plano.html" data-i18n="curso.btn.plano">Ler o plano de ensino integrado</a>
     </div>
   </div>
 </section>
 
-<!-- ======================================================== Conteúdo ==== -->
 <section class="secao" style="padding-block: clamp(2.25rem, 5vw, 3.5rem);">
-  <div class="envoltorio">
-
-    <div class="nota" style="margin-bottom: clamp(1.75rem, 4vw, 2.5rem);">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 16v-5M12 8h.01"/></svg>
-      <p data-i18n-html="ens.nota"><strong>Como acompanhar.</strong> Assista ao vídeo e depois abra o notebook da semana.</p>
-    </div>
-
-    <div class="ensino">
-
-      <!-- ------------------------------------------------------ Palco --- -->
-      <div class="palco" data-palco>
-        <div class="player" data-player></div>
-        <article class="aula-atual" data-aula-atual aria-live="polite"></article>
-      </div>
-
-      <!-- ----------------------------------------------------- Trilha --- -->
-      <aside class="trilha">
-
-        <div class="trilha__topo">
-          <div class="trilha__titulo">
-            <h2 data-i18n="ens.trilha.titulo">Trilha do curso</h2>
-            <span class="trilha__contagem" data-contagem>22</span>
-          </div>
-          <div class="progresso" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-i18n-aria-label="ens.trilha.titulo" aria-label="Trilha do curso">
-            <div class="progresso__barra" data-progresso-barra></div>
-          </div>
-          <p class="progresso__texto" data-progresso-texto data-i18n="ens.progresso.zero">Nenhuma aula concluída ainda</p>
-        </div>
-
-        <div class="busca">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-          <label class="oculto-visual" for="campo-busca" data-i18n="ens.busca.rotulo">Buscar entre as aulas</label>
-          <input id="campo-busca" type="search" data-busca data-i18n-placeholder="ens.busca" placeholder="Buscar aula, tema ou comando…" autocomplete="off">
-        </div>
-
-        <div class="filtros" role="group" data-filtros data-i18n-aria-label="ens.filtros.rotulo" aria-label="Filtrar por fase"></div>
-
-        <ul class="lista-aulas" data-lista-aulas>
-          <li class="vazio-busca" data-i18n="ens.carregando">Carregando a trilha do curso…</li>
-        </ul>
-
-      </aside>
-
-    </div>
+  <div class="envoltorio documento">
+    <aside class="sumario">
+      <h2 class="sumario__titulo" data-i18n="doc.sumario">Sumário</h2>
+      <nav data-sumario data-i18n-aria-label="doc.sumario" aria-label="Sumário"></nav>
+    </aside>
+    <article class="documento__corpo" data-corpo>
+      <p class="documento__aviso" data-i18n="doc.carregando">Carregando o documento…</p>
+    </article>
   </div>
 </section>
 
 </main>
 
-<!-- ========================================================== Rodapé ==== -->
 <footer class="rodape">
   <div class="envoltorio">
 
@@ -217,9 +171,9 @@
         <h3 data-i18n="rodape.col2">Material</h3>
         <ul>
           <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks/README.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks/en/README.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/notebooks/README.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.notebooks">Notebooks das aulas</a></li>
-          <li><a href="plano.html" data-i18n="rodape.link.plano">Plano de ensino</a></li>
-          <li><a href="relatorio.html" data-i18n="rodape.link.relatorio">Relatório técnico</a></li>
-          <li><a href="identidade.html" data-i18n="rodape.link.identidade">Identidade visual</a></li>
+          <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.en.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/curso/plano-de-ensino-integrado.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.plano">Plano de ensino</a></li>
+          <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.en.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/docs/relatorio-tecnico.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.relatorio">Relatório técnico</a></li>
+          <li><a data-href-pt="https://github.com/brunoleomenezes/peia-hpc/blob/main/identidade-visual/README.md" data-href-en="https://github.com/brunoleomenezes/peia-hpc/blob/main/identidade-visual/README.en.md" href="https://github.com/brunoleomenezes/peia-hpc/blob/main/identidade-visual/README.md" target="_blank" rel="noopener noreferrer" data-i18n="rodape.link.identidade">Identidade visual</a></li>
         </ul>
       </div>
 
@@ -246,6 +200,6 @@
 
 <script src="assets/js/i18n.js?v=5"></script>
 <script src="assets/js/site.js?v=5"></script>
-<script src="assets/js/ensino.js?v=5"></script>
+<script src="assets/js/documento.js?v=5"></script>
 </body>
 </html>

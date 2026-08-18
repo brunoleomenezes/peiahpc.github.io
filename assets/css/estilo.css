@@ -2070,3 +2070,198 @@ td:first-child {
     background: #fff;
   }
 }
+
+/* --------------------------------------------------------------------------
+   18. Páginas de documento
+   -------------------------------------------------------------------------- */
+
+.documento {
+  display: grid;
+  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .documento {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Sumário */
+
+.sumario {
+  position: sticky;
+  top: 88px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  scrollbar-width: thin;
+}
+
+@media (max-width: 900px) {
+  .sumario {
+    position: static;
+    max-height: 320px;
+    background: var(--superficie);
+    border: 1px solid var(--borda);
+    border-radius: var(--r-lg);
+    padding: 1.25rem;
+    box-shadow: var(--sombra-1);
+  }
+}
+
+.sumario__titulo {
+  font-size: 0.74rem;
+  font-weight: 720;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--texto-3);
+  margin-bottom: 0.85rem;
+}
+
+.sumario ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.1rem;
+  border-left: 2px solid var(--borda);
+}
+
+.sumario li a {
+  display: block;
+  padding: 0.32rem 0 0.32rem 0.9rem;
+  margin-left: -2px;
+  border-left: 2px solid transparent;
+  font-size: 0.855rem;
+  line-height: 1.4;
+  color: var(--texto-2);
+  text-decoration: none;
+  transition: color var(--transicao), border-color var(--transicao);
+}
+
+.sumario li a:hover {
+  color: var(--azul-texto);
+  border-left-color: var(--azul);
+}
+
+.sumario__sub a {
+  padding-left: 1.6rem;
+  font-size: 0.81rem;
+  color: var(--texto-3);
+}
+
+/* Corpo do documento */
+
+.documento__corpo {
+  min-width: 0;
+  max-width: 78ch;
+  font-size: 1.02rem;
+}
+
+.documento__corpo > *:first-child {
+  margin-top: 0;
+}
+
+.documento__corpo h2 {
+  font-size: clamp(1.45rem, 1.2rem + 1.1vw, 1.9rem);
+  margin-top: 2.75rem;
+  margin-bottom: 0.9rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--borda);
+  scroll-margin-top: 6rem;
+}
+
+.documento__corpo h3 {
+  font-size: clamp(1.12rem, 1.02rem + 0.45vw, 1.32rem);
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+  scroll-margin-top: 6rem;
+}
+
+.documento__corpo h4 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--texto-2);
+}
+
+.documento__corpo p,
+.documento__corpo li {
+  color: var(--texto-2);
+  line-height: 1.7;
+}
+
+.documento__corpo ul,
+.documento__corpo ol {
+  padding-left: 1.35rem;
+  margin: 0 0 1.15em;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.documento__corpo li::marker {
+  color: var(--texto-3);
+}
+
+.documento__corpo strong {
+  color: var(--texto);
+  font-weight: 650;
+}
+
+.documento__corpo hr {
+  border: 0;
+  border-top: 1px solid var(--borda);
+  margin: 2.25rem 0;
+}
+
+.documento__corpo blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.35rem;
+  border-left: 3px solid var(--teal);
+  background: color-mix(in srgb, var(--teal) 7%, var(--superficie));
+  border-radius: 0 var(--r-md) var(--r-md) 0;
+}
+
+.documento__corpo blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.documento__corpo pre {
+  margin: 1.25rem 0;
+  padding: 1.05rem 1.25rem;
+  background: var(--superficie-2);
+  border: 1px solid var(--borda);
+  border-radius: var(--r-md);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.documento__corpo pre code {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 0.855rem;
+  line-height: 1.6;
+  color: var(--texto);
+  white-space: pre;
+}
+
+.documento__corpo .tabela-rolagem {
+  margin: 1.5rem 0;
+}
+
+.documento__corpo table {
+  font-size: 0.9rem;
+}
+
+.documento__corpo img {
+  margin: 1.5rem auto;
+  border-radius: var(--r-md);
+}
+
+.documento__aviso {
+  padding: 2.5rem 0;
+  color: var(--texto-3);
+}

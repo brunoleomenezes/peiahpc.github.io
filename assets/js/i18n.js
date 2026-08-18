@@ -190,6 +190,28 @@ window.PEIA_I18N = {
     "rodape.licenca": "Conteúdo licenciado sob Apache 2.0",
     "rodape.direitos": "Projeto educacional e científico aberto",
 
+    /* --- Documentos ------------------------------------------------------ */
+    "doc.selo": "Documentação do projeto",
+    "doc.sumario": "Sumário",
+    "doc.github": "Ver a fonte no GitHub",
+    "doc.carregando": "Carregando o documento…",
+    "doc.erro": "Não foi possível carregar o documento. Recarregue a página ou abra a fonte no GitHub.",
+
+    "meta.titulo.plano": "Plano de ensino integrado · PEIA-HPC",
+    "meta.desc.plano": "Plano de ensino do PEIA-HPC: cinco fases que alinham, semana a semana, cada tópico do currículo à sua camada de computação de alto desempenho.",
+    "doc.plano.titulo": "Plano de ensino integrado",
+    "doc.plano.sub": "Organiza o curso em cinco fases, alinhando semana a semana cada tópico do currículo à sua camada de HPC, com objetivos de aprendizagem, níveis de proficiência e rubrica de avaliação.",
+
+    "meta.titulo.relatorio": "Relatório técnico · PEIA-HPC",
+    "meta.desc.relatorio": "Registro da implantação do ambiente computacional do PEIA-HPC no supercomputador Santos Dumont, incluindo os caminhos que não funcionaram e por quê.",
+    "doc.relatorio.titulo": "Relatório técnico",
+    "doc.relatorio.sub": "O processo de implantação em detalhe: VPN, diagnóstico de MTU em túnel IPsec, caracterização do hardware, tentativa de conteinerização, construção do ambiente e metodologia dos benchmarks. Registra também o que falhou, porque a depuração real faz parte do conteúdo formativo.",
+
+    "meta.titulo.identidade": "Identidade visual · PEIA-HPC",
+    "meta.desc.identidade": "O símbolo Asa-Nó do PEIA-HPC e a fundamentação científica de cada decisão de design: forma, cor, simetria e tipografia.",
+    "doc.identidade.titulo": "Identidade visual",
+    "doc.identidade.sub": "O símbolo Asa-Nó e a evidência que sustenta cada decisão de design: forma, cor, simetria e tipografia, com a paleta Okabe-Ito e os requisitos de acessibilidade.",
+
     /* --- Área de ensino -------------------------------------------------- */
     "ens.hero.selo": "5 fases · 22 aulas",
     "ens.hero.titulo": "Área de ensino",
@@ -410,6 +432,28 @@ window.PEIA_I18N = {
       "The experiments and hands-on activities of this project were carried out using resources of the SDumont supercomputer, provided by the <strong>National Laboratory for Scientific Computing (LNCC/MCTI, Brazil)</strong>. PEIA-HPC is a programme of the <strong>LNCC Artificial Intelligence Institute (IA-LNCC)</strong>, affiliated with SINAPAD, co-coordinated by researcher <strong>Fábio Porto</strong>, whom we thank, together with LNCC, for the collaboration that made it possible.",
     "rodape.licenca": "Content licensed under Apache 2.0",
     "rodape.direitos": "Open educational and scientific project",
+
+    /* --- Documents -------------------------------------------------------- */
+    "doc.selo": "Project documentation",
+    "doc.sumario": "Contents",
+    "doc.github": "View the source on GitHub",
+    "doc.carregando": "Loading the document…",
+    "doc.erro": "The document could not be loaded. Reload the page or open the source on GitHub.",
+
+    "meta.titulo.plano": "Integrated teaching plan · PEIA-HPC",
+    "meta.desc.plano": "The PEIA-HPC teaching plan: five phases aligning each curriculum topic, week by week, with its high performance computing layer.",
+    "doc.plano.titulo": "Integrated teaching plan",
+    "doc.plano.sub": "Organizes the course into five phases, aligning each curriculum topic, week by week, with its HPC layer, including learning objectives, proficiency levels and an assessment rubric.",
+
+    "meta.titulo.relatorio": "Technical report · PEIA-HPC",
+    "meta.desc.relatorio": "A record of deploying the PEIA-HPC computing environment on the Santos Dumont supercomputer, including the approaches that failed and why.",
+    "doc.relatorio.titulo": "Technical report",
+    "doc.relatorio.sub": "The deployment process in detail: VPN, MTU diagnosis in an IPsec tunnel, hardware characterization, the containerization attempt, environment construction and benchmark methodology. It also records what failed, because real debugging is part of the educational content.",
+
+    "meta.titulo.identidade": "Visual identity · PEIA-HPC",
+    "meta.desc.identidade": "The PEIA-HPC Wing-Node symbol and the scientific grounding of each design decision: form, colour, symmetry and typography.",
+    "doc.identidade.titulo": "Visual identity",
+    "doc.identidade.sub": "The Wing-Node symbol and the evidence behind each design decision: form, colour, symmetry and typography, with the Okabe-Ito palette and accessibility requirements.",
 
     /* --- Learning area --------------------------------------------------- */
     "ens.hero.selo": "5 phases · 22 lessons",
